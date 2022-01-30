@@ -1,0 +1,30 @@
+.homepage{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+.header{
+    max-width: 100%;
+    max-height: 100rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 5px 8px grey; 
+    
+   
+}
+.header_heading{
+    color: var(--primary-color);
+    padding: 2rem;
+}
+.header__links{
+    display: flex;
+    padding: 2rem;
+}
+.header__links li{
+    padding: 2rem;
+}
+.list_style{
+  list-style: none;
+}
+
