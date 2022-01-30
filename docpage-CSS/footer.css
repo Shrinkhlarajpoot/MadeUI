@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+   
+}
+.footer__social{
+    display:flex;
+}
+.footer__social li{
+    padding-left: 2rem;
+}
+.footer__social i{
+    color:white;
+}
