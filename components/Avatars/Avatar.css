@@ -1,0 +1,90 @@
+.header{
+  display: flex;
+   padding: 0.5rem 4rem;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 2px 5px 8px grey;
+   
+ }
+ .Avatar_container{
+   width: 90%;
+   height: 10rem;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   border: 1px solid grey;
+   margin: 2rem 0;
+ }
+ 
+ .avatar-xl{
+   width:7em;
+   height:7em;
+   border-radius:50%;
+  
+ }
+ .avatar-lg{
+   width:5em;
+   height:5em;
+   border-radius:50%;
+  }
+ .avatar-std{
+   width:3em;
+   height:3em;
+    border-radius:50%;
+ }
+ .avatar-sm{
+   width:2em;
+   height:2em;
+    border-radius:50%;
+ }
+ .avatars{
+    float:left;
+   margin:1.8rem 0;
+   padding:0.5rem;
+   text-align: center;
+ } 
+ .avatar-active{
+   position: relative;
+ }
+ .active_status{
+     padding:0.5rem;
+     position: absolute;
+     background:red;
+     border-radius:50%;
+     bottom:0.5rem;
+     left:5.5rem;
+ }
+ .avatar-busy{
+  position: relative;
+  margin-top:3.5rem;
+ }
+ .busy_status{
+  padding:6px;
+  position: absolute;
+  background:green;
+  border-radius:50%;
+  bottom:5px;
+  left:4rem;
+  }
+  .avatar-dnd{
+     position: relative;
+  margin-top:5.4rem;
+ 
+  }
+  .dnd_status{
+      padding:6px;
+      position: absolute;
+      background:grey;
+      border-radius:50%;
+      bottom:5px;
+      left:2.2rem;
+  }
+  .next_forward{
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   
+ }
+ .next_forward h2{
+  margin: 4rem 0;
+ }

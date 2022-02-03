@@ -1,10 +1,15 @@
 .footer{
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
     background-color: black;
     color: white;
+    height:7rem;
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
    
 }
 .footer__social{
