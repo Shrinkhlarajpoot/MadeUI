@@ -4,6 +4,8 @@
 body{
     
 font-family: 'Montserrat', sans-serif;
+scrollbar-width: normal;
+scrollbar-color: var(--primary-color);
 }
 
 .heading{
