@@ -16,14 +16,14 @@
 }
 
 .Pages_sidebar{
-  /* background-color:var(--secondary-color); */
-  background:rgb(235,235,235);
   grid-area: sidebar;
   margin-top:2rem;
-  height:100rem;
+  height:250rem;
+  position: fixed;
+  margin-top:7rem;
   width: 17vw;
   border-radius:5px;
-  box-shadow: 2px 5px 8px grey}
+  box-shadow: 8px 8px 10px var(--primary-color)}
 
 .sidebar__heading {
     margin: 0.5rem 0;
@@ -49,7 +49,6 @@
     border-radius:5px;
 }
 .Pages_container{
-    background:rgb(235,235,235);
     width:98%;
     grid-area:main1;
     margin-top:35px ;
@@ -61,14 +60,48 @@
     padding: 0.9rem 0 1.5rem 0;
 }
 .sub_heading{
-    margin:1rem 0;
+    margin:2.5rem 0;
     font-weight: bold;
     border-bottom: 1px solid black;
-    cursor: pointer;
+    
 }
 .component_heading{
     margin-bottom: 1rem;
     font-size:3rem;
+}
+.next_forward{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.next_forward h2{
+   margin-bottom: 4rem;
+   cursor: pointer;
+}
+.container{
+    width:90%;
+    /* height:25rem; */
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem 1rem 0;
+    padding: 3rem 2rem;
+    border:1px solid black;
+}
+.container1{
+    width:90%;
+    /* height:25rem; */
+    height:fit-content;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem 1rem 0;
+    padding: 3rem 2rem;
+    border:1px solid black;
 }
 
 
