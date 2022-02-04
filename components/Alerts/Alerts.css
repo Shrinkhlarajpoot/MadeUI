@@ -1,0 +1,57 @@
+
+.alerts{
+    width:90%;
+    padding:1rem;
+    font-weight: bold;
+    border-radius:3px;
+    margin:0.5rem 0;
+    
+}
+.primary__alert{
+    background-color: rgb(127,210,230);
+    color:rgb(41,78,168);
+}
+.sucess__alert{
+    background-color: rgb(132,241,201);
+    color:rgb(27,112,82);
+}
+.danger__alert{
+    background-color: rgb(252,197,197);
+    color:rgb(220,53,69);
+    
+}
+.seconday__alert{
+    background-color: rgb(132, 132, 139);
+    color:rgb(82, 84, 90);
+}
+.warning__alert{
+    background-color: rgb(255,231,197);
+    color:rgb(255,146,4);
+}
+.primary__outline-alert{
+    color:rgb(41,78,168);
+    border:3px solid rgb(41,78,168)
+
+}
+.sucess__outline-alert{
+    color:rgb(27,112,82);
+    border:3px solid rgb(27,112,82);
+
+}
+.danger__outline-alert{
+   color:rgb(220,53,69);
+   border:3px solid rgb(220,53,69);
+}
+.seconday__outline--alert{
+    color:rgb(82, 84, 90);
+    border:3px solid rgb(82, 84, 90);
+}
+.warning__outline-alert{
+    color:rgb(255,146,4);
+    border:3px solid rgb(255,146,4);
+
+}
+.alert_crossbtn{
+    float:right;
+}
+

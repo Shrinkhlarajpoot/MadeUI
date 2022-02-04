@@ -1,0 +1,101 @@
+.avatar-lg{
+    width:5em;
+    height:5em;
+    border-radius:50%;
+}
+  
+.avatars{
+    padding:1rem;
+ } 
+ .status{
+    padding:8px;
+    border-radius:50%;
+    bottom:1.5rem;
+    left:5rem;
+}
+  .avatar-active,.avatar-busy,.avatar-dnd{
+     position: relative;
+   }
+   .active_status{
+       position: absolute;
+       background:var(--error--color);
+   }
+      .busy_status{
+
+        position: absolute;
+        background:var(--sucess--color);
+    }
+    
+    .dnd_status{
+         position: absolute;
+        background:grey;
+        
+    }
+    .shopping_cart{
+      margin-left: 0.8rem;
+       position: relative;
+
+    }
+    .shopping_amount{
+        position: absolute;
+        padding:0.3rem;
+        top:-1rem;
+        left: 1rem;
+        background-color: var(--primary-color);
+        border-radius:50%;
+    }
+    .Badges > *{
+        padding:0.8rem 0;
+        color: var(--error--color);
+    }
+    
+    
+    .text-badge1{
+        padding: 0.6rem 1rem;
+        color: white;
+        background-color: var(--primary-color);
+        border-radius: 37px;
+        font-size: 0.5em;
+      
+    }
+    .badge_round{
+        border-radius:3px;
+        padding: 0.5rem 0.8rem;
+    }
+    .icon i{
+        font-size:3rem;
+        color:var(--primary-color);
+        padding:0 13px;
+    }
+    .icon_status{
+        padding:0.2rem 0.3rem;
+        border-radius:50%;
+       
+        background-color:black;
+        text-align: center;
+        color:white;
+    }
+    .icon1{
+        position: relative;
+    }
+    .status1,.status2{
+        position: absolute;
+        top: 0rem;
+        left: 3rem;
+    }
+
+    .icon2{
+        position: relative;
+    }
+    
+    .icon3{
+        position: relative;
+    }
+    .status3{
+        position: absolute;
+        top:-1rem;
+        left: 2rem;
+    }
+
+  
+ 
