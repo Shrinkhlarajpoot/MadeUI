@@ -1,4 +1,4 @@
-.Pages{
+.pages{
     display: grid;
     width:100%;
     grid-template-columns:1fr 1fr 1fr ;
@@ -9,13 +9,13 @@
     'sidebar sidebar  main1   main1   main1   main1   main1   main1   main1';
     
 }
-.Pages_header{
+.pages_header{
     min-width: 100vw;
     grid-area: header1;
     box-shadow: 2px 5px 8px grey;
 }
 
-.Pages_sidebar{
+.pages_sidebar{
   grid-area: sidebar;
   margin-top:2rem;
   height:55rem;
@@ -54,7 +54,7 @@
     background-color: var(--primary-color);
     border-radius:5px;
 }
-.Pages_container{
+.pages_container{
     width:98%;
     grid-area:main1;
     margin-top:35px ;
@@ -62,7 +62,7 @@
     box-shadow:  7px 8px 8px 8px grey;
    
 }
-.Pages_container h1{
+.pages_container h1{
     padding: 0.9rem 0 1.5rem 0;
 }
 .sub_heading{
@@ -112,20 +112,20 @@
 
 
 @media screen and (max-width:1091px) {
-    .Pages_sidebar{
+    .pages_sidebar{
         display: none;
        }
     
-    .Pages{
+    .pages{
         grid-template-columns: 1fr;
         grid-template-areas: 'header1'
         'main1';
     }
-    .Pages_header{
+    .pages_header{
         grid-area: header1;
     }
     
 }
-.Pages_container{
+.pages_container{
   padding:0 0 0 2rem
 }
