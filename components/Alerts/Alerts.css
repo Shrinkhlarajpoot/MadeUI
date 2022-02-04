@@ -30,25 +30,30 @@
 }
 .primary__outline-alert{
     color:rgb(41,78,168);
-    border:3px solid rgb(41,78,168)
+    border:3px solid rgb(41,78,168);
+    background-color: white;
 
 }
 .sucess__outline-alert{
     color:rgb(27,112,82);
     border:3px solid rgb(27,112,82);
+    background-color: white;
 
 }
 .danger__outline-alert{
    color:rgb(220,53,69);
-   border:3px solid rgb(220,53,69);
+   border:2px solid rgb(220,53,69);
+   background-color: white;
 }
 .seconday__outline--alert{
     color:rgb(82, 84, 90);
-    border:3px solid rgb(82, 84, 90);
+    border:2px solid rgb(82, 84, 90);
+    background-color: white;
 }
 .warning__outline-alert{
     color:rgb(255,146,4);
-    border:3px solid rgb(255,146,4);
+    border:2px solid rgb(255,146,4);
+    background-color: white;
 
 }
 .alert_crossbtn{

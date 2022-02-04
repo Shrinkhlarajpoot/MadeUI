@@ -49,6 +49,7 @@
     height:22rem;
     border:1px solid var(--primary-color);
     margin: 2rem 1rem;
+    background-color: white;
     
 
 }
@@ -81,7 +82,8 @@
     height:14rem;
    border:1px solid var(--primary-color);
    font-size: 0.8rem;
-    margin: 2rem 1rem;;
+    margin: 2rem 1rem;
+    background-color: white;;
 }
 .card__hori--main{
     display: flex;
