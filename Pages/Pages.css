@@ -18,29 +18,35 @@
 .Pages_sidebar{
   grid-area: sidebar;
   margin-top:2rem;
-  height:250rem;
-  position: fixed;
-  margin-top:7rem;
+  height:55rem;
   width: 17vw;
   border-radius:5px;
-  box-shadow: 8px 8px 10px var(--primary-color)}
+  box-shadow: 8px 8px 10px grey;
+ }
 
-.sidebar__heading {
-    margin: 0.5rem 0;
+ 
+ .sidebar__heading {
+    padding: 0.3rem 0;
     font-size: 1rem;
     font-weight: bold;
 }
+.sidebar__components{
+    font-size:0.8rem;
+}
 
 .sidebar__items{
+    font-size:0.5rem;
     text-align: center;
     width:100%;
 }
-.sidebar__items li,.sidebar__items h4{
-    padding:0.2rem;
+.sidebar__items > *{
+   
+    padding:0.7rem;
     width:80%;
-    font-size: 1rem;
+    font-size:1rem;
     
-}
+} 
+
 
 .sidebar__items li:hover{
     width: 100%;
@@ -53,7 +59,7 @@
     grid-area:main1;
     margin-top:35px ;
     padding:0 2rem;
-    box-shadow: 2px 5px 8px grey;
+    box-shadow:  7px 8px 8px 8px grey;
    
 }
 .Pages_container h1{
