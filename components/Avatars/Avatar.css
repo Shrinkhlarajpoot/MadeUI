@@ -1,11 +1,4 @@
-.header{
-  display: flex;
-   padding: 0.5rem 4rem;
-   justify-content: space-between;
-   align-items: center;
-   box-shadow: 2px 5px 8px grey;
-   
- }
+
  .Avatar_container{
    width: 90%;
    height: 10rem;
@@ -15,6 +8,7 @@
    border: 1px solid grey;
    margin: 2rem 0;
  }
+ 
  
  .avatar-xl{
    width:7em;
@@ -38,21 +32,22 @@
     border-radius:50%;
  }
  .avatars{
-    float:left;
-   margin:1.8rem 0;
+  
+    margin:1.8rem 0;
    padding:0.5rem;
-   text-align: center;
- } 
+  
+ }  
  .avatar-active{
    position: relative;
  }
  .active_status{
-     padding:0.5rem;
-     position: absolute;
-     background:red;
-     border-radius:50%;
-     bottom:0.5rem;
-     left:5.5rem;
+   
+     padding: 0.5rem;
+    position: absolute;
+    background: var(--error--color);
+    border-radius: 50%;
+    bottom: 1rem;
+    left: 5.7rem;
  }
  .avatar-busy{
   position: relative;
@@ -61,10 +56,10 @@
  .busy_status{
   padding:6px;
   position: absolute;
-  background:green;
+  background:var(--sucess--color);
   border-radius:50%;
-  bottom:5px;
-  left:4rem;
+  bottom:13px;
+  left:4.3rem;
   }
   .avatar-dnd{
      position: relative;
@@ -76,8 +71,20 @@
       position: absolute;
       background:grey;
       border-radius:50%;
-      bottom:5px;
-      left:2.2rem;
+      bottom:10px;
+      left:2.5rem;
+  }
+  .avatar-sqr-xl{
+    width:7em;
+    height:7em;
+  }
+  .avatar-sqr-lg{
+    width:5em;
+    height:5em;
+  }
+  .avatar-sqr-std{
+    width: 3em;
+    height: 3em;
   }
   .next_forward{
    width: 90%;

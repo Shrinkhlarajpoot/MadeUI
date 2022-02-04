@@ -16,13 +16,14 @@
 }
 
 .Pages_sidebar{
-  background-color:var(--secondary-color);
+  /* background-color:var(--secondary-color); */
+  background:rgb(235,235,235);
   grid-area: sidebar;
   margin-top:2rem;
   height:100rem;
   width: 17vw;
   border-radius:5px;
-  box-shadow: 2px 5px 8px var(--secondary-color);}
+  box-shadow: 2px 5px 8px grey}
 
 .sidebar__heading {
     margin: 0.5rem 0;
@@ -37,15 +38,18 @@
 .sidebar__items li,.sidebar__items h4{
     padding:0.2rem;
     width:80%;
+    font-size: 1rem;
     
 }
+
 .sidebar__items li:hover{
     width: 100%;
-    font-weight: 700;
+    
     background-color: var(--primary-color);
     border-radius:5px;
 }
 .Pages_container{
+    background:rgb(235,235,235);
     width:98%;
     grid-area:main1;
     margin-top:35px ;
@@ -54,7 +58,7 @@
    
 }
 .Pages_container h1{
-    color: var(--primary-color);
+    padding: 0.9rem 0 1.5rem 0;
 }
 .sub_heading{
     margin:1rem 0;
