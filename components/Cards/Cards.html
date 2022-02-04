@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Pages/Pages.css">
+    <link rel="stylesheet" href="/components/Cards/Cards.css">
+    <script src="https://kit.fontawesome.com/fda6e23714.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="pages">
+        <header class="header pages_header" id="header">
+            <h2 class="heading header_heading">MadeUI</h2>
+            <label for="click" class="menu_btn"> <i class="fas fa-bars" id = "menu" onclick="changeIcon(this)"></i></label>
+            <input type="checkbox" id="click">
+            <ul class="list">
+                <li class="list_style"><a class ="link_style" href ="/index.html"><span>Home</span></a></li>
+                <li  class="list_style"><a class ="link_style" href ="/Pages/Pages.html"><span>Documentation</span></a></li>
+            </ul>
+    
+         </header>
+        
+       <sidebar class="pages_sidebar">
+           <ul class="sidebar__items">
+                <h4 class="sidebar__heading">Getting Started</h4>
+                <li class="sidebar__components list_style"><a href="/Pages/Pages.html" 
+                    class="link_style">Usage</a></li>
+                <h4 class="sidebar__heading">Components</h4>
+                <li class="sidebar__components list_style"><a href="/components/Avatar/Avatar.html"
+                        class="link_style">Avatar</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Alerts/Alerts.html"
+                        class="link_style">Alert</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Badges/Badges.html"
+                        class="link_style">Badges</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Buttons/Buttons.html"
+                        class="link_style">Buttons</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Cards/Cards.html"
+                        class="link_style">Cards</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Images/Images.html"
+                        class="link_style">Images</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Inputs/Inputs.html"
+                        class="link_style">Inputs</a></li>
+                <li class="sidebar__components list_style"><a href="/components/List/List.html"
+                       class="link_style">List</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Navigation/Navigation.html"
+                        class="link_style">Navigation</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Toast/Toast.html"
+                        class="link_style">Toast</a></li>
+               
+            </ul>
+        </sidebar>
+            <main class="pages_container">
+                <h1 class="component_heading">Cards</h1>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2540import%2520url%28%2522https%253A%252F%252FMadeUI.netlify.app%252Fcomponents%252FCards%252FCards.css%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252FMadeUI.netlify.app%252Fcomponents%252FCards%252FCards.css%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+               style="width:100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+             </iframe>
+                <div>Cards are used to show user related data collectively,like product details</div>
+                <h3 class="sub_heading">Example of Vertical & Shadow Card</h3>
+                <div>Below html code is for Vertical card to add shadow in the card add the class  card_verti--shadow in the card container.</div>
+               <div class="container1">
+                  <div class="card__verti">
+                    <div class="card__verti--background">
+                        <img src="/assests/lipstick.jfif" alt="Lipstick">
+                    </div>
+                    <div class="card__verti--content">
+                        <h2>Red nude Lipstick</h2>
+                        <h4>powered by S</h4>
+                        <p>Super Stay Matte Ink Liquid Lipstick<br>Last upto 6 hours</p>
+                    </div>
+                    <div class="card__verti--nav">
+                        <button class="primary">Add to Cart<i class="fas fa-cart-plus"></i></button>
+                        <button class="secondary">Buy Now <i class="fas fa-shopping-bag"></i></button>
+                        <i class= "icons fas fa-heart"><span class="tooltip">Favourite</span></i>
+                        <i class=" icons fas fa-share-alt"><span class="tooltip">Share</span></i>
+                       <i class=" icons fas fa-check-circle"><span class="tooltip">Verified</span></i>
+                   </div>
+                   </div>
+                   <div class="card__verti card_verti-shadow">
+                    <div class="card__verti--background">
+                        <img src="/assests/eyeshadow.jpg" alt="Eyeshadow">
+                    </div>
+                    <div class="card__verti--content">
+                        <h2>EyeShadows</h2>
+                        <h4>powered by S</h4>
+                        <p> Matte Eyshadow platte<br>Last upto 6 hours</p>
+                    </div>
+                    <div class="card__verti--nav">
+                        <button class="primary">Add to Cart<i class="fas fa-cart-plus"></i></button>
+                        <button class="secondary">Buy Now <i class="fas fa-shopping-bag"></i></button>
+                        <i class= "icons fas fa-heart"><span class="tooltip">Favourite</span></i>
+                        <i class=" icons fas fa-share-alt"><span class="tooltip">Share</span></i>
+                       <i class=" icons fas fa-check-circle"><span class="tooltip">Verified</span></i>
+                   </div>
+                   </div>
+                   </div>
+                   <iframe
+                   src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassests%252Flipstick.jfif%2522%2520alt%253D%2522Lipstick%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ERed%2520nude%2520Lipstick%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253Epowered%2520by%2520S%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuper%2520Stay%2520Matte%2520Ink%2520Liquid%2520Lipstick%253Cbr%253ELast%2520upto%25206%2520hours%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary%2522%253EAdd%2520to%2520Cart%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary%2522%253EBuy%2520Now%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-bag%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2520%2522icons%2520fas%2520fa-heart%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EFavourite%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520icons%2520fas%2520fa-share-alt%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EShare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520icons%2520fas%2520fa-check-circle%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EVerified%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                   style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                   sandbox="allow-scripts allow-same-origin">
+                 </iframe>
+                   <h3 class="sub_heading">Example of Horizontal Cards</h3>
+                   <div>These are the examples of horizaontal card which is mainly used for notifications.</div>
+                      <div class="container1">
+                        <div class="card__hori">
+                            <div class="card__hori--main">
+                                <div class="card__hori--info">
+                                <div class="card__hori--background">
+                                 <img src="/assests/lipstick.jfif" alt="Lipstick">
+                             </div>
+                         </div>
+                       <div class="card__hori--content">
+                                     <h2>Red nude Lipstick</h2>
+                                     <h4 >powered by S</h4>
+                                     <p>Super Stay Matte Ink Liquid Lipstick<br>Last upto 6 hours</p>
+                                 </div>
+                             </div>
+                     
+                                 <div class="card__hori--nav">
+                                     <button class="primary">Add to Cart<i class="fas fa-cart-plus"></i></button>
+                                     <button class="secondary">Buy Now <i class="icons fas fa-shopping-bag"></i></button>
+                                     <i class= "icons fas fa-heart"><span class="tooltip">Favourite</span></i>
+                                     <i class=" icons fas fa-share-alt"><span class="tooltip">Share</span></i>
+                                    <i class=" icons fas fa-check-circle"><span class="tooltip">Verified</span></i>
+                                 </div>
+                                 </div>
+                                 <div class="card__hori">
+                                    <div class="card__hori--main">
+                                            <div class="card__hori--info">
+                                            <div class="card__hori--background">
+                                             <img src="/assests/lipstick.jfif" alt="Lipstick">
+                                         </div>
+                                     </div>
+                                        <div class="card__hori--content">
+                                             <h2>Red nude Lipstick</h2>
+                                             <h4 >powered by S</h4>
+                                             <p> Matte Eyshadow palette<br>Last upto 6 hours</p>
+                                         </div>
+                                     </div>
+                             
+                                         <div class="card__hori--nav">
+                                             <button class="primary">Add to Cart<i class="fas fa-cart-plus"></i></button>
+                                             <button class="secondary">Buy Now <i class="icons fas fa-shopping-bag"></i></button>
+                                             <i class= "icons fas fa-heart"><span class="tooltip">Favourite</span></i>
+                                             <i class=" icons fas fa-share-alt"><span class="tooltip">Share</span></i>
+                                            <i class=" icons fas fa-check-circle"><span class="tooltip">Verified</span></i>
+                                         </div>
+                     </div>
+                     </div>
+                     <iframe
+                           src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__hori%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__hori--main%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__hori--info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__hori--background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassests%252Flipstick.jfif%2522%2520alt%253D%2522Lipstick%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__hori--content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ERed%2520nude%2520Lipstick%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520%253Epowered%2520by%2520S%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuper%2520Stay%2520Matte%2520Ink%2520Liquid%2520Lipstick%253Cbr%253ELast%2520upto%25206%2520hours%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__hori--nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary%2522%253EAdd%2520to%2520Cart%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary%2522%253EBuy%2520Now%2520%253Ci%2520class%253D%2522icons%2520fas%2520fa-shopping-bag%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2520%2522icons%2520fas%2520fa-heart%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EFavourite%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520icons%2520fas%2520fa-share-alt%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EShare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520icons%2520fas%2520fa-check-circle%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EVerified%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                           style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                           sandbox="allow-scripts allow-same-origin">
+                     </iframe>
+                      <h3 class="sub_heading">Example of Cards with Badges and text-overlay</h3>
+                      <div>These kind of cards are used to show some special notification like offers,out of stocks etc.</div>
+                    <div class="container1">
+                        <div class="card__verti card__withbadge">
+                            <div class="card__verti--background">
+                                <img src="/assests/lipstick.jfif" alt="Lipstick">
+                            </div>
+                            <div class="card__verti--content">
+                                <h2>Red nude Lipstick</h2>
+                                <h4>powered by S</h4>
+                                <p>Super Stay Matte Ink Liquid Lipstick<br>Last upto 6 hours</p>
+                            </div>
+                            <div class="card__verti--nav">
+                                <button class="primary">Add to Cart<i class="fas fa-cart-plus"></i></button>
+                                <button class="secondary">Buy Now <i class="fas fa-shopping-bag"></i></button>
+                                <i class= "icons fas fa-heart"><span class="tooltip">Favourite</span></i>
+                                <i class=" icons fas fa-share-alt"><span class="tooltip">Share</span></i>
+                               <i class=" icons fas fa-check-circle"><span class="tooltip">Verified</span></i>
+                           </div>
+                           <div class="cardbadge">NEW</div>
+                           </div>
+                           <div class="card__verti card_textoverlay">
+                            <div class="card__verti--background">
+                                <img src="/assests/eyeshadow.jpg" alt="Eyeshadow" >
+                            </div>
+                            <div class="card__verti--content">
+                                <h2>Nude Eyeshadow</h2>
+                                <h4>powered by S</h4>
+                                <p>Super Stay Matte Eyeshadow pallete<br>Last upto 6 hours</p>
+                            </div>
+                            <div class="card__verti--nav">
+                                <button class="primary">Add to Cart<i class="fas fa-cart-plus"></i></button>
+                                <button class="secondary">Buy Now <i class="fas fa-shopping-bag"></i></button>
+                                <i class= "icons fas fa-heart"><span class="tooltip">Favourite</span></i>
+                                <i class=" icons fas fa-share-alt"><span class="tooltip">Share</span></i>
+                               <i class=" icons fas fa-check-circle"><span class="tooltip">Verified</span></i>
+                           </div>
+                           <div class="textoverlay">OUT OF STOCK</div>
+                           </div>
+
+                     </div>
+                     <iframe
+                         src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti%2520card__withbadge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassests%252Flipstick.jfif%2522%2520alt%253D%2522Lipstick%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ERed%2520nude%2520Lipstick%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253Epowered%2520by%2520S%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuper%2520Stay%2520Matte%2520Ink%2520Liquid%2520Lipstick%253Cbr%253ELast%2520upto%25206%2520hours%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary%2522%253EAdd%2520to%2520Cart%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary%2522%253EBuy%2520Now%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-bag%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2520%2522icons%2520fas%2520fa-heart%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EFavourite%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520icons%2520fas%2520fa-share-alt%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EShare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520icons%2520fas%2520fa-check-circle%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EVerified%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cardbadge%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti%2520card_textoverlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassests%252Feyeshadow.jpg%2522%2520alt%253D%2522Eyeshadow%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENude%2520Eyeshadow%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253Epowered%2520by%2520S%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuper%2520Stay%2520Matte%2520Eyeshadow%2520pallete%253Cbr%253ELast%2520upto%25206%2520hours%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary%2522%253EAdd%2520to%2520Cart%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%253C%252Fbutt"
+                         style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                         sandbox="allow-scripts allow-same-origin">
+                     </iframe>
+                    <h3 class="sub_heading">Example of Cards with Dismiss and text-only</h3>
+                    <div>These are cards with dismiss to dismiss the cards and a simple classic card with only text.</div>
+                    <div class="container1">
+                        <div class="card__verti card_dismiss">
+                            <i class="fas fa-times-circle dismiss-icon"></i>
+                            <div class="card__verti--background">
+                                <img src="/assests/eyeshadow.jpg" alt="Eyeshadow" >
+                            </div>
+                            <div class="card__verti--content">
+                                <h2>Nude Eyeshadow</h2>
+                                <h4>powered by S</h4>
+                                <p>Super Stay Matte Eyeshadow pallete<br>Last upto 6 hours</p>
+                            </div>
+                            <div class="card__verti--nav">
+                                <button class="primary">Add to Cart<i class="fas fa-cart-plus"></i></button>
+                                <button class="secondary">Buy Now <i class="fas fa-shopping-bag"></i></button>
+                                <i class= "icons fas fa-heart"><span class="tooltip">Favourite</span></i>
+                                <i class=" icons fas fa-share-alt"><span class="tooltip">Share</span></i>
+                               <i class=" icons fas fa-check-circle"><span class="tooltip">Verified</span></i>
+                           </div>
+                         
+                           </div>
+                    
+                    <div class="card__verti">
+                       <div class="card__verti--content">
+                        <h2>To all the beauty queens <br>Grasp the offer!!</h2>
+                         <h2> foundation,Lipsticks and all your<br>beauty products is 60% OFF.</h2><br>
+                        <h1>powered by S <br>In collab with Sugar Cosmetics</h1>
+                            
+                        </div>
+                        <p class="text_only">STOCKS LIMITED EDITION</p>
+                </div>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card__verti%2520card_dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520dismiss-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassests%252Feyeshadow.jpg%2522%2520alt%253D%2522Eyeshadow%2522%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENude%2520Eyeshadow%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253Epowered%2520by%2520S%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuper%2520Stay%2520Matte%2520Eyeshadow%2520pallete%253Cbr%253ELast%2520upto%25206%2520hours%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary%2522%253EAdd%2520to%2520Cart%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary%2522%253EBuy%2520Now%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-bag%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2520%2522icons%2520fas%2520fa-heart%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EFavourite%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520icons%2520fas%2520fa-share-alt%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EShare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522%2520icons%2520fas%2520fa-check-circle%2522%253E%253Cspan%2520class%253D%2522tooltip%2522%253EVerified%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__verti--content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETo%2520all%2520the%2520beauty%2520queens%2520%253Cbr%253EGrasp%2520the%2520offer%21%21%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%2520foundation%252CLipsticks%2520and%2520all%2520your%253Cbr%253Ebeauty%2520products%2520is%252060%2525%2520OFF.%253C%252Fh2%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253Epowered%2520by%2520S%2520%253Cbr%253EIn%2520collab%2520with%2520Sugar%2520Cosmetics%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text_only%2522%253ESTOCKS%2520LIMITED%2520EDITION%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+               style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+           </iframe>
+           <div class="next_forward">
+            <h2 class="sub_heading"><a class="link_style" href="/components/Buttons/Buttons.html">Buttons</a></h2>
+            <h2 class="sub_heading"><a class="link_style" href="/components/Images/Images.html">Images</a></h2>
+        </div>
+    </main>
+            </div>
+             <script src="/Javascript.js/header.js"></script>
+</body>
+</html>
