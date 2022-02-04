@@ -1,16 +1,4 @@
-
- .Avatar_container{
-   width: 90%;
-   height: 10rem;
-   display: flex;
-   justify-content:center;
-   align-items: center;
-   border: 1px solid grey;
-   margin: 2rem 0;
- }
- 
- 
- .avatar-xl{
+.avatar-xl{
    width:7em;
    height:7em;
    border-radius:50%;
@@ -32,9 +20,7 @@
     border-radius:50%;
  }
  .avatars{
-  
-    margin:1.8rem 0;
-   padding:0.5rem;
+  padding:0.5rem;
   
  }  
  .avatar-active{
@@ -51,7 +37,7 @@
  }
  .avatar-busy{
   position: relative;
-  margin-top:3.5rem;
+  
  }
  .busy_status{
   padding:6px;
@@ -63,7 +49,7 @@
   }
   .avatar-dnd{
      position: relative;
-  margin-top:5.4rem;
+  
  
   }
   .dnd_status{
