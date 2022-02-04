@@ -1,30 +1,32 @@
+
 .homepage{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10vh 80vh 10vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .header{
-    max-width: 100%;
-    max-height: 100rem;
     display: flex;
+    padding: 0.5rem 4rem;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 2px 5px 8px grey; 
-    
-   
+    box-shadow: 2px 5px 8px grey;
 }
 .header_heading{
     color: var(--primary-color);
-    padding: 2rem;
 }
-.header__links{
+.header ul{
     display: flex;
-    padding: 2rem;
+    gap:2rem;
 }
-.header__links li{
-    padding: 2rem;
+.header ul li{
+    align-self: center;
+}
+
+.link_style:hover span{
+    border-bottom: 3px solid black;
 }
 .list_style{
   list-style: none;
 }
+
 
