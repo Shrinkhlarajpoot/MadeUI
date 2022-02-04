@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Pages/Pages.css">
+   <link rel="stylesheet" href="/components/Badges/Badges.css">
+    <script src="https://kit.fontawesome.com/fda6e23714.js" crossorigin="anonymous"></script>
+    <title>MADEUI</title>
+</head>
+<body>
+    <div class="Pages">
+        <header class="header Pages_header" id="header">
+            <h2 class="heading header_heading">MadeUI</h2>
+            <label for="click" class="menu_btn"> <i class="fas fa-bars" id = "menu" onclick="changeIcon(this)"></i></label>
+            <input type="checkbox" id="click">
+            <ul class="list">
+                <li class="list_style"><a class ="link_style" href ="/index.html"><span>Home</span></a></li>
+                <li  class="list_style"><a class ="link_style" href ="/Pages/Pages.html"><span>Documentation</span></a></li>
+            </ul>
+
+         </header>
+        
+       <sidebar class="Pages_sidebar">
+
+        <ul class="sidebar__items">
+            <h4 class="sidebar__heading">Getting Started</h4>
+            <li class="sidebar__components list_style"><a href="/Pages/Pages.html" 
+                class="link_style">Usage</a></li>
+            <h4 class="sidebar__heading">Components</h4>
+            <li class="sidebar__components list_style"><a href="/components/Avatars/Avatar.html"
+                    class="link_style">Avatar</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Alerts/Alerts.html"
+                    class="link_style">Alert</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Badges/Badges.html"
+                    class="link_style">Badges</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Buttons/Buttons.html"
+                    class="link_style">Buttons</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Cards/Cards.html"
+                    class="link_style">Cards</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Images/Images.html"
+                    class="link_style">Images</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Inputs/Inputs.html"
+                    class="link_style">Inputs</a></li>
+        </ul>
+    </sidebar>
+            
+            <main class="Pages_container">
+                <h1 class="component_heading" >Badges</h1>
+                <iframe
+                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2540import%2520url%28%2522https%253A%252F%252Fmadeui.netlify.app%252Fcomponents%252FBadges%252FBadges.css%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fmade.netlify.app%252Fcomponents%252FBadges%252FBadges.css%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+  
+                <div>Badges are being used to display a notification count or status information</div>
+                <h3 class="sub_heading">Examples of Status Badges</h3>
+                <div>We have 2 types of status badges that can be integrated with Avatars.You can use colors to show the online status of user. 
+                   <br>Add class <span style="color:var(--primary-color)">avatars avatar-lg status and according to status busy_status active_status etc</span>
+                to add these in your project. </div>
+                <div class="container1">
+                    <figure class="avatar-active avatars">
+                        <img class=" avatar-lg" src="/assests/girl2.jpg" alt="Avatar"></img>
+                        <div class="active_status status"></div>
+                    </figure>
+                    <figure class="avatar-busy avatars">
+                        <img class=" avatar-lg" src="/assests/girl2.jpg" alt="Avatar"></img>
+                        <div class="busy_status status"></div>
+                    </figure>
+                    <figure class="avatar-dnd avatars">
+                        <img class=" avatar-lg" src="/assests/girl2.jpg" alt="Avatar"></img>
+                        <div class="dnd_status status"></div>
+                    </figure>
+                   </div>
+                   <iframe
+                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522avatar-active%2520avatars%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522%2520avatar-lg%2522%2520src%253D%2522%252Fassests%252Fgirl2.jpg%2522%2520alt%253D%2522Avatar%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522active_status%2520status%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522avatar-busy%2520avatars%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522%2520avatar-lg%2522%2520src%253D%2522%252Fassests%252Fgirl2.jpg%2522%2520alt%253D%2522Avatar%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522busy_status%2520status%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigure%2520class%253D%2522avatar-dnd%2520avatars%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522%2520avatar-lg%2522%2520src%253D%2522%252Fassests%252Fgirl2.jpg%2522%2520alt%253D%2522Avatar%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dnd_status%2520status%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffigure%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                     style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    <h3 class="sub_heading">Examples of text-Badges</h3>
+                    <div>We have 2 types of text badges that can be integrated with text. Badges with rounded edges and square edges.<br>
+                    Add classes <span style="color:var(--primary-color)"> text-badge1 and for round badge badge_round</span> to add 
+                these in your projects.</div>
+                    <div class="container Badges">
+                        <h3>Text with a Badges <span class="text-badge1">New</span></h3>
+                        <h4>Text with a Badges <span class="text-badge1">New</span></h4>
+                        <h5>Text with a Badges <span class="text-badge1 badge_round">New</span></h5>
+                        <h6>Text with a Badges <span class="text-badge1 badge_round">New</span></h6>
+
+                     </div> 
+                    <iframe
+                     src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EText%2520with%2520a%2520Badges%2520%253Cspan%2520class%253D%2522text-badge1%2522%253ENew%253C%252Fspan%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EText%2520with%2520a%2520Badges%2520%253Cspan%2520class%253D%2522text-badge1%2522%253ENew%253C%252Fspan%253E%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EText%2520with%2520a%2520Badges%2520%253Cspan%2520class%253D%2522text-badge1%2520badge_round%2522%253ENew%253C%252Fspan%253E%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253EText%2520with%2520a%2520Badges%2520%253Cspan%2520class%253D%2522text-badge1%2520badge_round%2522%253ENew%253C%252Fspan%253E%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                     style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                     sandbox="allow-scripts allow-same-origin">
+                   </iframe>
+                      <h3 class="sub_heading">Examples of Icons Badges</h3>
+                      <div>These are the icons which contains Badges which is basically used to see notifications or calls on the icons.
+                          Add classes <span style="color:var(--primary-color)"> icon1 icon icon_status and status1,status2 etc.</span>accordingly to add in your project</div>
+                    <div class="container1">
+                        <div class="icon1 icon">
+                           <i class="fas fa-envelope"></i>
+                           <div class=" icon_status status1">+3</div>
+                        </div>
+                        <div class="icon2 icon">
+                           <i class="fas fa-user-alt"></i>  
+                           <div class=" icon_status status2" >1</div>
+                           
+                        </div>
+                        <div class="icon3 icon">
+                           <i class="fas fa-mobile-alt"></i>
+                           <div class=" icon_status status3">@</div>
+                        </div>
+                        </div>
+                        <iframe
+                         src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon1%2520icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520icon_status%2520status1%2522%253E%252B3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon2%2520icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user-alt%2522%253E%253C%252Fi%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520icon_status%2520status2%2522%2520%253E1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon3%2520icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-mobile-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520icon_status%2520status3%2522%253E%2540%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                         style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                      <div class="next_forward">
+                        <h2 class="sub_heading"><a class="link_style" href="/components/Alerts/Alerts.html">Alerts</a></h2>
+                        <h2 class="sub_heading"><a class="link_style" href="/components/Buttons/Buttons.html">Buttons</a></h2>
+                    </div>
+                </main>
+                </div>
+                <script src="/JavaScript/header.js"></script>
+        
+    
+</body>
+</html>
