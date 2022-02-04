@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Pages/Pages.css">
+    <link rel="stylesheet" href="/components/Inputs/Inputs.css">
+    <script src="https://kit.fontawesome.com/fda6e23714.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="pages">
+        <header class="header pages_header" id="header">
+            <h2 class="heading header_heading">MadeUI</h2>
+            <label for="click" class="menu_btn"> <i class="fas fa-bars" id = "menu" onclick="changeIcon(this)"></i></label>
+            <input type="checkbox" id="click">
+            <ul class="list">
+                <li class="list_style"><a class ="link_style" href ="/index.html"><span>Home</span></a></li>
+                <li  class="list_style"><a class ="link_style" href ="/Pages/Pages.html"><span>Documentation</span></a></li>
+            </ul>
+    
+         </header>
+        
+       <sidebar class="pages_sidebar">
+
+            <ul class="sidebar__items">
+                <h4 class="sidebar__heading">Getting Started</h4>
+                <li class="sidebar__components list_style"><a href="/Pages/Pages.html"
+                    class="link_style">Usage</a></li>
+                <h4 class="sidebar__heading">Components</h4>
+                <li class="sidebar__components list_style"><a href="/components/Avatars/Avatar.html"
+                        class="link_style">Avatar</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Alerts/Alerts.html"
+                        class="link_style">Alert</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Badges/Badges.html"
+                        class="link_style">Badges</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Buttons/Buttons.html"
+                        class="link_style">Buttons</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Cards/Cards.html"
+                        class="link_style">Cards</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Images/Images.html"
+                        class="link_style">Images</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Inputs/Inputs.html"
+                        class="link_style">Inputs</a></li>
+            </ul>
+        </sidebar>
+            <main class="pages_container">
+                <h2 class="component_heading">Inputs</h2>
+                <iframe
+               
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2540import%2520url%28%2522https%253A%252F%252Fmadeui.netlify.app%252Fcomponents%252FInputs%252FInputs.css%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fmadeui.netlify.app%252Fcomponents%252FInputs%252FInputs.css%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%250A%2520"
+           style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+           </iframe>
+               
+                <div>Inputs are necessary for user interaction with the website.Inputs are used to take information from the user
+                    ,and save the data to the server accordingly.
+                </div>
+                <h3 class="sub_heading">Example of Normal Input Fields</h3>
+                <div>These are the simple Input.Copy paste the below code to include these inputs field in your project.</div>
+                <div class="input_container">
+                <div>
+                <label for="password">Enter password*</label>
+                <input type="Password"class="input_input" placeholder="Password"name="password" /></div>
+               <div>
+               <label for="email">Enter Email*</label>
+               <input type="email"class="input_input" placeholder="Email"name="email" /></div>
+               </div>
+               <iframe
+                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522input1_pass%2522%253EEnter%2520password*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522Password%2522class%253D%2522input1_input%2522%2520placeholder%253D%2522Password%2522name%253D%2522password%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522input2_pass%2522%253EEnter%2520Email*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522class%253D%2522input2_input%2522%2520placeholder%253D%2522email%2522name%253D%2522email%2522%2520%252F%253E%250A%2520%2520%250A%2520"
+                 style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h3 class="sub_heading">Example of Validation Input Fields</h3>
+                <div>These are the inputs field with validation.Add class name input_input along with input_valid to use them .</div>
+                <div class="input_container">
+                <div>
+                <label for="password" class="label_valid">Enter password*</label>
+                <input type="Password"class="input_input input_valid" placeholder="Password"name="password" /></div>
+                <div>
+                <label for="email" class="label_valid">Enter Email*</label>
+                <input type="email"class="input_input input_valid" placeholder="Email"name="email" required /></div>
+                <h5 class="label_valid">Strong Password</h5>
+                </div>
+                <iframe
+                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522label_valid%2522%253EEnter%2520password*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522Password%2522class%253D%2522input_input%2520input_valid%2522%2520placeholder%253D%2522Password%2522name%253D%2522password%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522label_valid%2522%253EEnter%2520Email*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522class%253D%2522input_input%2520input_valid%2522%2520placeholder%253D%2522Email%2522name%253D%2522email%2522%2520required%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522label_valid%2522%253EStrong%2520Password%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                 sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h3 class="sub_heading">Example of Error Input Fields</h3>
+                <div>These are the inputs field with error.Add class onput_input along with input_error to use them</div>
+                <div class="input_container">
+                
+                <label for="password" class="label_err">Enter password*</label>
+                <input type="Password"class="input_input input_err" placeholder="Password"name="password" />
+                
+                
+                <label for="email" class="label_err">Enter Email*</label>
+                <input type="email"class="input_input input_err" placeholder="Email"name="email" required />
+                <h5 class="label_err">Weak Password</h5>
+            </div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522label_err%2522%253EEnter%2520password*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522Password%2522class%253D%2522input_input%2520input_err%2522%2520placeholder%253D%2522Password%2522name%253D%2522password%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522label_err%2522%253EEnter%2520Email*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522class%253D%2522input_input%2520input_err%2522%2520placeholder%253D%2522Email%2522name%253D%2522email%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522label_err%2522%253Eweak%2520Password%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+            style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+                <div class="next_forward">
+                    <h2><a class="link_style" href="/components/Images/Images.html">Images</a></h2>
+                    <h2><a class="link_style" href="/components/List/List.html">List</a></h2>
+                </div>
+            </main>
+        </div>
+    <script src="/JavaScript/header.js"></script>
+</body>
+</html>
