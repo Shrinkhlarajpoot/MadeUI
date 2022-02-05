@@ -1,0 +1,42 @@
+.styled_list{
+    padding: 0 1.5em;
+    font-weight: bold;
+    color:var(--primary-color)
+}
+
+.list_style-square{
+    list-style-type: square;
+}
+.list_style-circle{
+    list-style-type: circle;
+}
+.list_style-smAlpha{
+    list-style-type: lower-alpha;
+}
+.list_style-upAlpha{
+    list-style-type: upper-alpha;
+}
+.list_style-roman{
+    list-style-type: upper-roman ;
+}
+.list_style-none{
+    list-style-type: none ;
+}
+.noti{
+
+    background-color: white;
+    height:fit-content;
+    padding:3rem 2rem;
+    width:50%;
+    text-align:center;
+
+}
+.noti h3{
+    background-color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+.noti li:hover{
+    background-color: var(--secondary-color);
+    color:white;
+    border-radius:2px;
+}
