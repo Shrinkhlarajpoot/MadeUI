@@ -1,0 +1,15 @@
+
+.img_responsive{
+     width:50rem;
+     height:30rem;
+}
+.img_round{
+        width: 13rem;
+        height:13rem;
+        border-radius: 50%;
+    
+}
+.img_square{
+    width:14rem;
+    height:14rem;
+}
