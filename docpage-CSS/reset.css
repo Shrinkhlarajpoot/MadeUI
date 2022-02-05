@@ -2,9 +2,9 @@
     --primary-color:rgb(0,158,129);
      --secondary-color:rgb(14, 211, 175);
      --tertiary-text-color:black;
+       
      --sucess--color:green;
      --error--color:red;
-     
      --secondary--btn_color_bg:rgb(234,234,236);
      --secondary--btn_color:rgb(136,136,136);
        box-sizing: border-box;}
