@@ -1,0 +1,14 @@
+.star{
+    font-size:1.8rem;
+    padding:1rem 0.2;
+   color:var(--error--color);
+}
+.rating{
+    font-size: 1rem;
+    color:var(--error--color);
+    background-color: white;
+    width:40%;
+    height:fit-content;
+    padding:0.5rem;
+    text-align: center;
+}
