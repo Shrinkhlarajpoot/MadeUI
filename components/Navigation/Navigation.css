@@ -1,0 +1,27 @@
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:98%;
+    height:3rem;
+    background:var(--secondary-color);
+
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+
+  }
+  .navigation_items{
+    
+    display:flex;
+    justify-content: flex-end;
+}
+  .navigation_items li{
+    list-style:none;
+    padding-right:1.5rem;
+  }
+ .nav_item-icon :hover{
+    cursor:pointer;
+    color:white
+  }
