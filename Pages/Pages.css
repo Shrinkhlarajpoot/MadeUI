@@ -15,7 +15,7 @@
 .pages_header{
     min-width: 100vw;
     grid-area: header1;
-    box-shadow: 2px 5px 8px grey;
+    /* box-shadow: 2px 5px 8px grey; */
 }
 
 .pages_sidebar{
@@ -60,7 +60,7 @@
 .pages_container{
     width:98%;
     grid-area:main1;
-    margin-top:35px ;
+    margin-top:25px ;
     padding:0 2rem;
     /* box-shadow:  7px 8px 8px 8px grey; */
     
@@ -77,8 +77,8 @@
     
 }
 .component_heading{
-    margin-bottom: 1rem;
-    font-size:3rem;
+    margin-bottom:2.5rem;
+    font-size:2rem;
 }
 .next_forward{
     width: 90%;
@@ -98,7 +98,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1rem 1rem 1rem 0;
+    margin: 1rem 1rem 3rem 0;
     padding: 3rem 2rem;
     border:1px solid black;
     background-color: rgb(224, 217, 217);

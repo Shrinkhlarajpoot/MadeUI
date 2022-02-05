@@ -9,17 +9,19 @@
     padding: 0.5rem 4rem;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 2px 5px 8px grey;
+    /* box-shadow: 2px 5px 8px grey; */
 }
 .header_heading{
     color: var(--primary-color);
 }
 .header ul{
     display: flex;
-    gap:2rem;
+     gap:2rem;
+    
 }
 .header ul li{
     align-self: center;
+   
 }
 
 .link_style:hover span{
