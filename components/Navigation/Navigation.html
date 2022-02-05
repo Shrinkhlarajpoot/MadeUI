@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Pages/Pages.css">
+    <link rel="stylesheet" href="/components/Navigation/Navigation.css">
+    <script src="https://kit.fontawesome.com/fda6e23714.js" crossorigin="anonymous"></script>
+    <title>MADEUI</title>
+</head>
+<body>
+    <div class="pages">
+        <header class="header pages_header" id="header">
+            <h2 class="heading header_heading">MadeUI</h2>
+            <label for="click" class="menu_btn"> <i class="fas fa-bars" id = "menu" onclick="changeIcon(this)"></i></label>
+            <input type="checkbox" id="click">
+            <ul class="list">
+                <li class="list_style"><a class ="link_style" href ="/index.html"><span>Home</span></a></li>
+                <li  class="list_style"><a class ="link_style" href ="/Pages/Pages.html"><span>Documentation</span></a></li>
+            </ul>
+    
+         </header>
+        
+       <sidebar class="pages_sidebar">
+
+        <ul class="sidebar__items">
+            <h4 class="sidebar__heading">Getting Started</h4>
+            <li class="sidebar__components list_style"><a href="/Pages/Pages.html" 
+                class="link_style">Usage</a></li>
+            <h4 class="sidebar__heading">Components</h4>
+            <li class="sidebar__components list_style"><a href="/components/Avatars/Avatar.html"
+                    class="link_style">Avatar</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Alerts/Alerts.html"
+                    class="link_style">Alert</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Badges/Badges.html"
+                    class="link_style">Badges</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Buttons/Buttons.html"
+                    class="link_style">Buttons</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Cards/Cards.html"
+                    class="link_style">Cards</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Images/Images.html"
+                    class="link_style">Images</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Inputs/Inputs.html"
+                    class="link_style">Inputs</a></li>
+             <li class="sidebar__components list_style"><a href="/components/List/List.html"
+                    class="link_style">List</a></li>
+            <li class="sidebar__components list_style"><a href="/components/Navigation/Navigation.html"
+                    class="link_style">Navigation</a></li>
+             <li class="sidebar__components list_style"><a href="/components/Toast/Toast.html"
+                    class="link_style">Toast</a></li>
+        </ul>
+    </sidebar>
+          
+            <main class="pages_container">
+                <h1 class="component_heading">Navigation</h1>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=912&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2540import%2520url%28%2522https%253A%252F%252Fmadeui.netlify.app%252Fcomponents%252FNavigation%252FNavigation.css%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fmadeui.netlify.app%252Fcomponents%252FNavigation%252FNavigation.css%2522%253E%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+               <div>Navigation bar is used to navigate through the web apps or websites.</div>
+               <h3 class="sub_heading">Example of Simple Navigation Bar</h3>
+               <div>This is a simple Navigation bar just add navigation class along with <span  style= "color:var(--primary-color)">navigation_items and nav_item1and nav_item2</span>
+                   to use it.
+               </div>
+               <div class="container">
+                <nav class="navigation">
+                    <h3>Madeui</h3>
+                    <ul class="navigation_items">
+                      <li class="nav_item">Item1</li>
+                      <li class="nav_item">Item2</li>
+                    </ul>
+                  </nav>
+                </div>
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522navigation%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EEcommerce%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522navigation_items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav_item%2522%253EItem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav_item%2522%253EItem2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                    style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+               
+               <h3 class="sub_heading">Example of Simple Navigation Bar With Icons</h3>
+               <div>This is the Navigation with a icons.Add class navigation along with <span style= "color:var(--primary-color)">navigation_items and nav_item-icon</span>  to add
+                   these in your project </div>
+               <div class="container">
+                <nav class="navigation">
+                    <h3>Madeui</h3>
+                    <ul class="navigation_items">
+                      <li class="nav_item-icon"><i class="fas fa-shopping-cart"></i></li>
+                      <li class="nav_item-icon"><i class="fas fa-user-circle"></i></li>
+                      <li class="nav_item-icon"><i class="fas fa-share-alt"></i></li>
+                    </ul>
+                  </nav>
+               </div>
+               <iframe
+                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522navigation%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EEcommerce%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522navigation_items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav_item-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav_item-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user-circle%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav_item-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                 style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                 sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+               <h3 class="sub_heading">Example of Simple Navigation Bar With Menu Icon</h3>
+               <div>This is the Navigation with a icons.Add class navigation along with <span style="color:var(--primary-color)">navigation_items and nav_item-icon</span>  to add
+                these in your project </div>
+               <div class="container">
+                <nav class="navigation">
+                    <h3>Madeui</h3>
+                    <ul class="navigation_items">
+                      <li class="nav_item-icon"><i class="fas fa-bars"></i></li>
+                      
+                    </ul>
+                  </nav>
+               </div>
+               <iframe
+                 src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=base16-dark&wt=none&l=auto&width=882&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Anonymous+Pro&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522navigation%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EEcommerce%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522navigation_items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav_item-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                 style="width:100%; height:150px; border:0; transform: scale(1); overflow:hidden;"
+                 sandbox="allow-scripts allow-same-origin">
+               </iframe>
+   
+               <div class="next_forward">
+                <h2 class="sub_heading"><a class="link_style" href="/components/List/List.html">List</a></h2>
+                <h2 class="sub_heading"><a class="link_style" href="/components/Toast/Toast.html">Toast</a></h2>
+            </div>
+        </main>
+</div>
+        
+    <script src="/JavaScript/header.js"></script>
+</body>
+</html>
