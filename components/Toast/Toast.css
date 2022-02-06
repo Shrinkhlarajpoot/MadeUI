@@ -1,0 +1,35 @@
+.toast{
+    width:80%;
+    height:3.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding:0 1rem;
+    align-items: center;
+    border-radius:5px;
+    margin:1rem 0;
+  }
+  .toast_simple{
+  background-color:black;
+  color: white;
+  }
+  .toast button{
+  padding: 0.3rem 0.6rem;
+  border-radius: 9px;
+  font-weight: 600;
+  }
+  .toast button:hover{
+    background-color:#000000;
+    color: #ffffff;
+  }
+  .toast_color1{
+     background-color: #79eec3;
+    color: #117450;
+  }
+  .toast_color2{
+    background-color: #fcc5c5;
+    color: #f78181;
+  }
+  .toast_color3{
+    background-color: #7fd2e6;
+    color: #087996;
+  }
