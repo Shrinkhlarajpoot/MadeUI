@@ -1,0 +1,58 @@
+.typo_container{
+    width:90%;
+    height:fit-content;
+    background:rgb(229,236,238);
+    margin: 1rem 1rem 1rem 0;
+    padding:2rem ;
+    
+}
+.typo_container >*{
+    padding:0.7rem 0;
+    
+}
+.text-left{
+text-align: start;
+}
+.text-right{
+text-align: end;
+
+}
+.text-center{
+    text-align: center;
+}
+.xl-text{
+    font-size:2rem;
+}
+.lg-text{
+    font-size:1.5rem;
+}
+.md-text{
+    font-size:1rem;
+}
+.sm-text{
+    font-size:0.8rem;
+}
+.esm-text{
+    font-size:0.5rem;
+}
+.uppercase-text{
+    text-transform: uppercase;
+}
+.lowercase-text{
+    text-transform: lowercase;
+}
+.capitalize-text{
+    text-transform: capitalize;
+}
+.light-text{
+    font-weight: lighter;
+}
+.regular-text{
+    font-weight: normal;
+}
+.bold-text{
+    font-weight: bold;
+}
+.bolder-text{
+    font-weight: bolder;
+}
