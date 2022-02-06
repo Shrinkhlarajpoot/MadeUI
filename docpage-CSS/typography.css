@@ -15,22 +15,22 @@ scrollbar-color: var(--primary-color);
 .sub_heading, .link_style,.component_heading{
     font-family: 'Roboto Slab', serif;
 }
-
+ 
 @media screen and (max-width:450px) {
     :root{
-        font-size: 13px;
+        font-size: 12px;
     }
     
-}
-@media screen and (max-width:300px) {
+} 
+/* @media screen and (max-width:300px) {
     :root{
         font-size: 11px;
     }
     
-}
-@media screen and (max-width:255px) {
+} */
+ @media screen and (max-width:280px) {
     :root{
-        font-size: 9px;
+        font-size: 10px;
     }
     
-}
+} 
