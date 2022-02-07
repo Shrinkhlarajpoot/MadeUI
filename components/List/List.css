@@ -31,9 +31,10 @@
     text-align:center;
 
 }
-.noti h3{
+.noti h4{
     background-color: var(--secondary-color);
     margin-bottom: 1rem;
+    width:fit-content;
 }
 .noti li:hover{
     background-color: var(--secondary-color);

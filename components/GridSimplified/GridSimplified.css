@@ -4,6 +4,7 @@
    
 }
 
+
 .grid-50-50-layout{
     width:80%;
     height:fit-content;
@@ -29,6 +30,15 @@
     border:1px solid var(--error--color);
    
 }
+.grid-three-layout{
+    width:80%;
+    height:fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border:1px solid var(--error--color);
+
+
+}
 .grid-four-layout{
     width:80%;
     height:fit-content;
@@ -37,5 +47,6 @@
     border:1px solid var(--error--color);
 
 }
+
 
 
