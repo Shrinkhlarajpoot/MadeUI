@@ -46,9 +46,9 @@
     font-size: 0.8rem;
     flex-direction:column;
     width:18rem;
-    height:22rem;
+    height:24rem;
     border:1px solid var(--primary-color);
-    margin: 2rem 1rem;
+    margin:2rem 1rem;
     background-color: white;
     
 
@@ -78,11 +78,11 @@
     box-shadow:0 6px 10px 0 var(--primary-color);
 }
 .card__hori{
-    width:25rem;
+    width:22rem;
     height:14rem;
    border:1px solid var(--primary-color);
    font-size: 0.8rem;
-    margin: 2rem 1rem;
+    margin: 2rem 0;
     background-color: white;;
 }
 .card__hori--main{
