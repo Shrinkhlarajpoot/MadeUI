@@ -1,11 +1,11 @@
 
-
 .pages{
     display: grid;
     width:100%;
-    grid-template-columns:1fr 1fr 1fr ;
-    grid-auto-columns: 1fr ;
-    grid-template-rows: 10vh 1fr;
+    /* grid-template-columns:1fr 1fr 1fr ; */
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+    grid-auto-columns:minmax(0,1fr);
+    grid-template-rows: 10vh minmax(0,1fr);
     grid-template-areas: 
     'header1 header1 header1 header1 header1 header1 header1 header1 header1 header1 header1'
     'sidebar sidebar main1  main1  main1   main1   main1   main1   main1   main1   main1 ';
@@ -13,10 +13,8 @@
     
 }
 .pages_header{
-    
     grid-area: header1;
     border-bottom:3px solid var(--primary-color);
-  
 }
 
 .pages_sidebar{
@@ -26,9 +24,7 @@
  width:17vw;
   border-radius:5px;
   border-right:3px solid var(--primary-color);
-  
-  
- }
+  }
 
  
  .sidebar__heading {
@@ -49,31 +45,22 @@
     
 }
 .sidebar__items > *{
-   
     padding:0.3rem;
     width:80%;
     font-size:1rem;
-    
 } 
 
 
 .sidebar__items li:hover{
     width: 100%;
-    
-    
-    
     background-color: var(--primary-color);
     border-radius:5px;
 }
 .pages_container{
-  
+    width:100%;
     grid-area:main1;
     margin-top:25px ;
-    padding:0 0;
     
-
-    
-   
 }
 
 .pages_container h1{
@@ -101,7 +88,6 @@
 }
 .container{
     width:90%;
-    
     height:fit-content;
     display: flex;
     flex-direction: column;
@@ -110,39 +96,55 @@
     flex-wrap: wrap;
     margin: 1rem 0;
     padding: 3rem 3rem;
-    
-    background-color: rgb(229,236,238);
+    background-color: #e5ecee;
 }
 .container1{
     width:90%;
     height:fit-content;
     display: flex;
-    background-color: rgb(229,236,238);
+    background-color: #e5ecee;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: 1rem 0;
     padding: 3rem 3rem;
+ }
+ .codebar{
+     overflow-x: auto;
+     overflow-y: auto;
+     width:90%;
+     display: block;
  
+     font-size: 0.9rem;
+    
+ }
+ .pages_container{
+    padding:0 0 0 2rem
+  }
+
+@media  screen and (max-width:1280px) {
+   
+    .container{
+        width:100%;
+    }
+    .container{
+        width:100%;
+    }
     
 }
-
-
 @media screen and (max-width:1091px) {
     .pages_sidebar{
         display: none;
        }
-    
     .pages{
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0,1fr);
         grid-template-areas: 'header1'
-        'main1';
-    }
+        'main1';}
     .pages_header{
         grid-area: header1;
     }
     
 }
 .pages_container{
-  padding:0 0 0 2rem
-}
+    padding:0 0 0 1rem
+  }
