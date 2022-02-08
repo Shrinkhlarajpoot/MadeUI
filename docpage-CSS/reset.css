@@ -5,12 +5,12 @@
      --error--color:#ff0000;
      --secondary--btn_color_bg:#eaeaec;
      --secondary--btn_color:#888888;
-       box-sizing: border-box;}
+       }
       
  
  *{
      margin: 0;
      padding:0;
      box-sizing: border-box;
- }
+    }
  

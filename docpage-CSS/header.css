@@ -21,7 +21,7 @@
     align-self: center;
 }
 .link_style:hover span{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #000000;
 }
 .list_style{
   list-style: none;
