@@ -1,9 +1,10 @@
 .typo_container{
-    width:90%;
+    width:100%;
     height:fit-content;
     background:rgb(229,236,238);
     margin: 1rem 1rem 1rem 0;
     padding:2rem ;
+    text-align: center;
     
 }
 .typo_container >*{

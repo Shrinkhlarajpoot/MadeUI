@@ -1,0 +1,43 @@
+.color_container{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    background:rgb(229,236,238);
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin: 1rem 1rem 1rem 0;
+    padding: 3rem 6rem;
+    font-size:0.8rem;
+    border:1px solid black;
+}
+.color{
+width:8rem;
+height:8rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items:center;
+
+}
+.primary{
+background-color:var(--primary-color);
+}
+
+.secondary{
+background-color: var(--secondary--btn_color);
+
+}
+
+.danger{
+background-color: var(--error--color);
+color:white;
+}
+.success{
+background-color: var(--sucess--color);
+color:white;
+}
+.shadow{
+background-color: var(--secondary-color);
+}

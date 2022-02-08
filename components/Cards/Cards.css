@@ -35,7 +35,6 @@
     top:120%;
     left:120%;
     text-align: center;
-
 }
 .icons:hover .tooltip{
     visibility: visible;
@@ -47,11 +46,8 @@
     flex-direction:column;
     width:21rem;
     height:24rem;
-    border:1px solid var(--primary-color);
     margin:2rem 1rem;
     background-color: white;
-    
-
 }
 .card__verti--content h4{
     color:var(--primary-color);
@@ -62,7 +58,7 @@
     height:13rem;
 }
 .card__verti--content{
-    padding:0.2rem 0.7rem;
+    padding:0.5rem 0.7rem;
      border:2px solid white;
    
    
@@ -74,13 +70,15 @@
     margin-top:0.5rem;
     
 }
+.card__verti:hover{
+    box-shadow:0 6px 10px 0 var(--primary-color);
+}
 .card_verti-shadow{
     box-shadow:0 6px 10px 0 var(--primary-color);
 }
 .card__hori{
     width:fit-content;
     height:14rem;
-   border:1px solid var(--primary-color);
    font-size: 0.7rem;
     margin: 2rem 1rem;
     background-color: white;;
@@ -99,15 +97,11 @@ height:9rem;
     padding:0 1rem;
 }
  .card__hori--content h4{
-
-    
-    color:var(--primary-color);
+   color:var(--primary-color);
 }
 
 .card__hori--content p{
     padding-top:0.6rem;
-  
-    
 }
 
 .card__hori--nav{
@@ -115,12 +109,12 @@ height:9rem;
     justify-content: space-around;
     align-items: center;
     margin-top:0.6rem;
-    
-    
+}
+.card__hori:hover{
+    box-shadow:0 6px 10px 0 var(--primary-color);
 }
 .card__withbadge{
     position: relative;
-    
 }
 .cardbadge{
     position: absolute;
@@ -133,17 +127,25 @@ height:9rem;
 }
 .card_textoverlay{
     position: relative;
+    z-index:1;
+    width:21rem;
 }
 .textoverlay{
     position: absolute;
-    width:100%;
+    width:21rem;
     height:3rem;
     background-color:var(--error--color);
     color:white;
     text-align:center;
-    top:9rem;
-    font-size: 1.2rem;
-    
+    top:12rem;
+    font-size:1.2rem;
+    z-index:2;
+    left:1rem;
+    border-radius: 2px;
+}
+.card_textoverlay_blur{
+    filter:blur(2px);
+    -webkit-filter: blur(2px);
 }
 .card_dismiss{
     position: relative;
@@ -160,14 +162,14 @@ height:9rem;
     font-weight: bold;
     text-align: center;
 }
+
 @media screen and (max-width:280px){
     .container{
         width:100%;
         padding:0px;
-     align-self: flex-start;
-     left:0;
-
-    }
+        align-self: flex-start;
+        left:0;
+}
     .container1{
         width:100%;
     }

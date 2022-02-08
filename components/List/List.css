@@ -26,18 +26,26 @@
 
     background-color: white;
     height:fit-content;
-    padding:3rem 2rem;
-    width:70%;
+    padding:3rem 1rem;
+    width:50%;
     text-align:center;
 
 }
 .noti h4{
     background-color: var(--secondary-color);
     margin-bottom: 1rem;
-    width:fit-content;
+    width:100%;
+    
 }
 .noti li:hover{
     background-color: var(--secondary-color);
     color:white;
     border-radius:2px;
+}
+
+@media screen and (max-width:259px) {
+    .noti{
+        padding:3rem 0;
+    }
+    
 }

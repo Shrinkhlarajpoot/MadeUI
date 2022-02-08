@@ -1,0 +1,17 @@
+.typo_container{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    background:rgb(229,236,238);
+    align-items: flex-start;
+    justify-content:center;
+    margin: 1rem 1rem 1rem 0;
+    padding: 3rem 6rem;
+    font-size:0.8rem;
+    
+}
+.typo_container >*{
+    padding:0.7rem 0;
+    padding:1rem solid black;
+}
