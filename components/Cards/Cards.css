@@ -9,7 +9,7 @@
 }
 .primary:hover{
     background-color: var(--primary-color);
-    color:white;
+    color:var(--text2--color);
 }
 .secondary{
     font-size: 0.8rem;
@@ -21,7 +21,7 @@
 }
 .secondary:hover{
     background-color: yellowgreen;
-    color: white;
+    color: var(--text2--color);
 }
 .icons{
     position: relative;
@@ -47,7 +47,7 @@
     width:21rem;
     height:24rem;
     margin:2rem 1rem;
-    background-color: white;
+    background-color: var(--text2--color);
 }
 .card__verti--content h4{
     color:var(--primary-color);
@@ -59,7 +59,7 @@
 }
 .card__verti--content{
     padding:0.5rem 0.7rem;
-     border:2px solid white;
+     border:2px solid var(--text2--color);
    
    
 }
@@ -81,7 +81,7 @@
     height:14rem;
    font-size: 0.7rem;
     margin: 2rem 1rem;
-    background-color: white;;
+    background-color: var(--text2--color);;
 }
 .card__hori--main{
     display: flex;
@@ -120,7 +120,7 @@ height:9rem;
     position: absolute;
     padding:1rem;
     background-color: var(--primary-color);
-    color:white;
+    color:var(--text2--color);
     border-radius:7px;
     top: -10px;
     left: -14px;
@@ -135,7 +135,7 @@ height:9rem;
     width:21rem;
     height:3rem;
     background-color:var(--error--color);
-    color:white;
+    color:var(--text2--color);
     text-align:center;
     top:12rem;
     font-size:1.2rem;

@@ -24,7 +24,7 @@
 }
 .noti{
 
-    background-color: white;
+    background-color: var(--text2--color);
     height:fit-content;
     padding:3rem 1rem;
     width:50%;
@@ -39,7 +39,7 @@
 }
 .noti li:hover{
     background-color: var(--secondary-color);
-    color:white;
+    color:var(--text--color);
     border-radius:2px;
 }
 

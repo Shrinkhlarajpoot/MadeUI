@@ -34,3 +34,10 @@
     background-color: #7fd2e6;
     color: #087996;
   }
+
+  @media screen and (max-width:600px) {
+    .toast{
+      width:90%;
+    }
+    
+  }

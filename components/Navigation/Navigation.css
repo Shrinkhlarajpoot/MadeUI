@@ -22,7 +22,7 @@
   }
  .nav_item-icon :hover{
     cursor:pointer;
-    color:white
+    color:var(--text2--color);
   }
 
  

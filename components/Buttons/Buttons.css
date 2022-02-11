@@ -5,7 +5,7 @@
     border-radius:5px;
    } 
   .btn_solid-primary{
-     color:white;
+     color:var(--text2--color);
     background:var(--primary-color);
    }
   .btn_outline-primary{
@@ -13,7 +13,7 @@
     border:1px solid var(--primary-color);
   }
   .btn_outline-primary:hover{
-      color:white;
+      color:var(--text2--color);
   }
   .btn_icon{
       color:var(--primary-color)
@@ -25,7 +25,7 @@
     }
   .btn_icon-primary{
     background:var(--primary-color);
-    color:white;
+    color:var(--text2--color);
   }
   .btn_icon-primary i{
       padding:0 0.4rem 0 0;

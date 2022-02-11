@@ -13,5 +13,5 @@
 }
 .typo_container >*{
     padding:0.7rem 0;
-    padding:1rem solid black;
+    padding:1rem solid var(--text--color);
 }
