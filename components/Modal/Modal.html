@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/Pages/Pages.css">
-    <link rel="stylesheet" href="/components/Rating/Rating.css">
+   <link rel="stylesheet" href="/components/Modal/Modal.css">
     <script src="https://kit.fontawesome.com/fda6e23714.js" crossorigin="anonymous"></script>
     <title>MADEUI</title>
 </head>
@@ -20,8 +20,10 @@
                 <li class="list_style"><a class ="link_style" href ="/index.html"><span>Home</span></a></li>
                 <li  class="list_style"><a class ="link_style" href ="/components/Avatars/Avatar.html"><span>Documentation</span></a></li>
                 <li class="list_style"><a class="link_style" href="https://github.com/Shrinkhlarajpoot/MadeUI"><i class="fab fa-github"></i></a></li> 
-           </ul>
-       </header>
+          
+            </ul>
+
+         </header>
         
          <sidebar class="pages_sidebar">
             <ul class="sidebar__items">
@@ -61,50 +63,72 @@
                      class="link_style">Text-Utilities</a></li>
                 <li class="sidebar__components list_style"><a href="/components/GridSimplified/GridSimplified.html"
                       class="link_style">Grid-Simplified</a></li>
-                      <li class="sidebar__components list_style"><a href="/components/Modal/Modal.html"
-                        class="link_style">Modal</a></li>
+               <li class="sidebar__components list_style"><a href="/components/Modal/Modal.html"
+                     class="link_style">Modal</a></li>
                 <li class="sidebar__components list_style"><a href="/components/Slider/Slider.html"
-                        class="link_style">Slider</a></li>
+                     class="link_style">Slider</a></li>
                 </ul>
                 </sidebar>
-          
+            
             <main class="pages_container">
-                <h1 class="component_heading">Ratings</h1>
-                <div class="codebar">
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L360-L362&style=night-owl"></script>
-                </div>
-                <div>Ratings are used to provide feedbacks.</div>
-                <h3 class="sub_heading">Example of Star Ratings</h3>
-                <div class="container">
-                    <div>
-                        <i class="fas fa-star star" ></i>
-                        <i class="fas fa-star star"></i>
-                        <i class="fas fa-star star"></i>
-                        <i class="far fa-star star" ></i>
-                        <i class="far fa-star star"></i><br>
-                    </div>
-                   
-                     <div>You have Submitted 3 ratings</div>
-                </div>
-                <h3 class="sub_heading">Example of Badge Ratings</h3>
-                <div class="container1">
-                    <div class=rating>5
-                        <i class="fas fa-star "></i>|5
-                    </div>
-                   
-                </div>
+                <h1 class="component_heading" >Modal</h1>
                <div class="codebar">
-                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L363-L372&style=night-owl"></script> 
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F2395be8fd05527bc46cde6e84323818de697f2cc%2Findex.html%23L485-L487&style=night-owl"></script>
                </div>
-   
+  
+                <div>Modals are positioned over everything else in the document and remove the scroll from the page.It gets closed only with close
+                    button on modal pop-up.
+                </div>
+                <h3 class="sub_heading">Examples of Modal</h3>
+                <div>To use modal in your project add class <span style="color:var(--primary-color)">modal.</span>in your div conatiner</div>
+                <div class="container">
+                    <div class="modal__btn" id="modal__btn1">
+                         SHOW DEMO
+                    </div>
+                </div>
+                <div class="modal" id="modal">
+                    <p>PLEASE SIGN IN TO CONTINUE USING THIS APP.<br>Click on close button to close.</p>
+                    <div class="modal__close">
+                        <button class="btn" id="modal__btn2">CLOSE</button>
+                        <button class="btn" id="modal__btn2">SIGN-IN</button>
+                    </div>
+                </div>
+                <div class="codebar">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F0d6f6d77fea5d32c7db03d7fa88cf1610ea172df%2Findex.html%23L489-L501&style=night-owl"></script>
+                    </div>
+                <div class="codebar">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F2395be8fd05527bc46cde6e84323818de697f2cc%2Findex.html%23L502-L519&style=night-owl"></script>
+                </div>
                <div class="next_forward">
-                <h3 class="sub_heading"><a class="link_style" href="/components/Toast/Toast.html">Toast</a></h3>
-                <h3 class="sub_heading"><a class="link_style" href="/components/Text-Utlities/Text-Utilities.html">Text-Ulitilies</a></h3>
-            </div>
-        </main>
-</div>
-        
-    <script src="/JavaScript/header.js"></script>
-   
-</body>
-</html>
+                        <h3 class="sub_heading"><a class="link_style" href="/components/GridSimplified/GridSimplified.html">Grid-Simplified</a></h3>
+                        <h3 class="sub_heading"><a class="link_style" href="/components/Slider/Slider.html">Slider</a></h3>
+                    </div>
+                </main>
+             
+
+                </div>
+                <script src="/JavaScript/header.js"></script>
+                <script>
+                   const btn=document.getElementById("modal__btn1");
+                   const modal=document.getElementById("modal");
+                   const close=document.getElementById("modal__btn2");
+               
+                   const show =()=>{
+                     modal.style.display="block"
+                      div.style.display="block";
+                      document.body.style.overflow="hidden"
+                    
+                   }
+                   const hide =()=>{
+                       modal.style.display="none"
+                      div.style.display="none";
+                      document.body.style.overflow="visible"
+                   } 
+                   btn.addEventListener("click",show);
+                   close.addEventListener("click",hide);
+                   const div = document.createElement("div");
+                   div.classList.add("modal__bg");
+                    modal.insertAdjacentElement("afterend",div);
+                </script>
+                </body>
+                </html>
