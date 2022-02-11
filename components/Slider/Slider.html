@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Pages/Pages.css">
+   <link rel="stylesheet" href="/components/Slider/Slider.css">
+    <script src="https://kit.fontawesome.com/fda6e23714.js" crossorigin="anonymous"></script>
+    <title>MADEUI</title>
+</head>
+<body>
+    <div class="pages">
+        <header class="header pages_header" id="header">
+            <h2 class="heading header_heading">MadeUI</h2>
+            <label for="click" class="menu_btn"> <i class="fas fa-bars" id = "menu" onclick="changeIcon(this)"></i></label>
+            <input type="checkbox" id="click">
+            <ul class="list">
+                <li class="list_style"><a class ="link_style" href ="/index.html"><span>Home</span></a></li>
+                <li  class="list_style"><a class ="link_style" href ="/components/Avatars/Avatar.html"><span>Documentation</span></a></li>
+                <li class="list_style"><a class="link_style" href="https://github.com/Shrinkhlarajpoot/MadeUI"><i class="fab fa-github"></i></a></li>   
+          
+            </ul>
+
+        </header>
+        
+        <sidebar class="pages_sidebar">
+            <ul class="sidebar__items">
+                 <h4 class="sidebar__heading">Getting Started</h4>
+                 <li class="sidebar__components list_style"><a href="/Documentation/Introduction/Introduction.html" 
+                     class="link_style">Introduction</a></li>
+                 <li class="sidebar__components list_style"><a href="/Documentation/Colors/Colors.html" 
+                     class="link_style">Colors</a></li>
+                 <li class="sidebar__components list_style"><a href="/Documentation/Typography/Typography.html" 
+                     class="link_style">Typography</a></li>
+                 <li class="sidebar__components list_style"><a href="/Documentation/Conclusion/Conclusion.html" 
+                    class="link_style">Conclusion</a></li>
+                 <h4 class="sidebar__heading">Components</h4>
+                 <li class="sidebar__components list_style"><a href="/components/Avatars/Avatar.html"
+                     class="link_style">Avatar</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Alerts/Alerts.html"
+                     class="link_style">Alert</a></li>
+                 <li class="sidebar__components list_style"><a href="/components/Badges/Badges.html"
+                     class="link_style">Badges</a></li>
+                 <li class="sidebar__components list_style"><a href="/components/Buttons/Buttons.html"
+                     class="link_style">Buttons</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Cards/Cards.html"
+                     class="link_style">Cards</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Images/Images.html"
+                     class="link_style">Images</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Inputs/Inputs.html"
+                     class="link_style">Inputs</a></li>
+                <li class="sidebar__components list_style"><a href="/components/List/List.html"
+                     class="link_style">List</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Navigation/Navigation.html"
+                     class="link_style">Navigation</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Toast/Toast.html"
+                     class="link_style">Toast</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Rating/Rating.html"
+                     class="link_style">Ratings</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Text-Utlities/Text-Utilities.html"
+                     class="link_style">Text-Utilities</a></li>
+                <li class="sidebar__components list_style"><a href="/components/GridSimplified/GridSimplified.html"
+                      class="link_style">Grid-Simplified</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Modal/Modal.html"
+                        class="link_style">Modal</a></li>
+                <li class="sidebar__components list_style"><a href="/components/Slider/Slider.html"
+                        class="link_style">Slider</a></li>
+            </ul>
+        </sidebar>
+            
+            <main class="pages_container">
+                <h1 class="component_heading" >Slider</h1>
+                <div class="codebar">
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F2395be8fd05527bc46cde6e84323818de697f2cc%2Findex.html%23L521-L523&style=night-owl"></script>
+                </div>
+  
+                <div>Slider are used to range for something like sound in video,price in shopping sites etc.</div>
+                <h3 class="sub_heading">Examples of Simple Slider</h3>
+                <div>To use this slider with icon use class  <span style="color:var(--primary-color)">slider3 </span>in your div conatiner</div>
+                <div class="container">
+                    <div class="slider__cont">
+                      <input type="range" min="1" max="100" value="1" class="slider3">
+                      </div>
+                     </div>
+                <div class="codebar">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F2395be8fd05527bc46cde6e84323818de697f2cc%2Findex.html%23L523-L524&style=night-owl"></script>
+                </div>
+                
+                <h3 class="sub_heading">Examples of Simple Slider with icon</h3>
+                <div>To use this slider with icon use class  <span style = "color:var(--primary-color)">slider1 </span>in your div conatiner</div>
+                <div class="container ">
+                   <div class="slider__cont">
+                    <i class="fa fa-volume-up"></i>
+                    <input type="range" min="1" max="100" value="1" class="slider1">
+                    
+                   </div>
+                </div>
+                <div class="codebar">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F2395be8fd05527bc46cde6e84323818de697f2cc%2Findex.html%23L526-L530&style=night-owl"></script>
+                </div>
+                <h3 class="sub_heading">Examples of Designed Slider</h3>
+                <div>To use this slider in your project add class <span  style = "color:var(--primary-color)"> slider__designed and slider2 </span>in your div container along with Javascript code</div>
+                <div class="container">
+                     <div class="slider__cont slider__designed">
+                        <input type="range" min="1" max="100" value="1" class="slider2" id="range">
+                        <p>Value: <span id="value"></span></p>
+                     </div>
+                    
+                    
+                 </div>
+                 <div class="codebar">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F2395be8fd05527bc46cde6e84323818de697f2cc%2Findex.html%23L531-L534&style=night-owl"></script>
+                 </div>
+                 <div class="codebar">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F2395be8fd05527bc46cde6e84323818de697f2cc%2Findex.html%23L536-L549&style=night-owl"></script>
+                 </div>
+               <div class="next_forward">
+                        <h3 class="sub_heading"><a class="link_style" href="/components/Modal/Modal.html">Modal</a></h3>
+                        <h3 class="sub_heading"><a class="link_style" href="/Documentation/Introduction/Introduction.html">Introduction</a></h3>
+                    </div>
+        </main>
+             </div>
+                <script src="/JavaScript/header.js"></script>
+                <script>
+                    var slider=document.getElementById("range");
+                    var output=document.getElementById("value");
+                    output.innerHTML=slider.value;
+                    slider.addEventListener("input",()=>{
+                        output.innerHTML=slider.value;
+                    })
+                 
+                    const slideHandler=()=>{
+                     let x =slider.value;
+                    var color= `linear-gradient(90deg,var(--secondary-color) ${x}%,white ${x}%)`;
+                    slider.style.background=color;
+
+                     }
+                   slider.addEventListener("input",slideHandler);
+              </script>
+               
+    </body>
+</html>

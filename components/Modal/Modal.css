@@ -3,16 +3,15 @@
     height:4rem;
     text-align: center;
     background-color: var(--primary-color);
-    color:white;
+    color:var(--text2--color);
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
     padding:1.5rem 0 0 0;
 }
 .modal__btn:hover{
-    background-color: white;
+    background-color: var(--text2--color);
     color:var(--primary-color);
-
 }
 .modal{
     position:fixed;
@@ -20,7 +19,7 @@
     left:35%;
     height:20rem;
     width:30rem;
-    background-color:white;
+    background-color:var(--text2--color);
     border:5px solid var(--primary-color);
     border-radius:10px;
     display: none;
@@ -28,11 +27,15 @@
     text-align: center;
 
 }
-.modal>*{
-    margin-top: 5rem;
-    font-weight: bold;
-    padding:0 2rem;
+.modal__close{
+    display: flex;
+    justify-content: space-around;
 }
+.modal>*{
+    margin-top:4rem;
+    padding:0 1rem;
+}
+
 .btn{
     float: right;
     cursor: pointer;
@@ -45,7 +48,7 @@
     height: 100%;
     z-index: 1;
     opacity:80%;
-    background: black;
+    background: var(--text--color);
     display:none;
   
 }
@@ -69,8 +72,8 @@
     height:15rem;
     width:15rem;}
     .modal>*{
-        margin-top:3rem;
-        font-weight: bold;
-        padding:0 2rem;
+        margin-top:1rem;
+        
+        padding:0 1rem;
     }
 }
