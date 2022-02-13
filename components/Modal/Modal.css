@@ -67,10 +67,12 @@
 }
 @media screen and (max-width:560px) {
     .modal
-    {top:20%;
+    {
+    top:20%;
     left:20%;
     height:15rem;
-    width:15rem;}
+    width:15rem;
+}
     .modal>*{
         margin-top:1rem;
         
