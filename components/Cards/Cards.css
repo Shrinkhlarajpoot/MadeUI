@@ -42,7 +42,7 @@
 }
 .card__vertical-title{
     position: absolute;
-    background-color:var(--text-color);
+    background-color:var(--text--color);
     color:var(--primary-color);
     width:4rem;
     height:2rem;
