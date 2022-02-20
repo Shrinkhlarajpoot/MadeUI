@@ -101,5 +101,5 @@ For other components change the Components name in above Link.
 * Designed Slider
 
 ![](assests/Homepage.png)
-![](assests/Introduction.pngpng)
+![](assests/Introduction.png)
 ![](assests/Components.png)
