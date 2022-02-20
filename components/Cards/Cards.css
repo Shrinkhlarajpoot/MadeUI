@@ -76,7 +76,7 @@
 
 .card__hori2{
   width:fit-content;
-  padding:0 0.5rem 1rem 0.5rem;
+  padding:0 1.5rem 1rem 1.5rem;
   height:fit-content;
     margin:0 1rem;
     position: relative;
@@ -102,12 +102,12 @@
 .hori2__btn{
     width:99%;
    margin:auto;
-    /* margin-bottom:0.6rem; */
+  
 }
 .hori2__btn .btn__pri{
     margin-top:1rem;
 }
-.fa-heart{
+ .card__hori2 .fa-heart{
     position: absolute;
   right:5px;
     top:5px;
