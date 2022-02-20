@@ -76,9 +76,10 @@
 
 .card__hori2{
   width:fit-content;
-  padding:0 2rem;
-    height:16rem;
+  padding:0 0.5rem 1rem 0.5rem;
+  height:fit-content;
     margin:0 1rem;
+    position: relative;
   
   
     background-color: white;
@@ -92,7 +93,7 @@
 .card__hori2-img{
     width:40%;
     height:10rem;
-    margin-top:1rem;
+    margin-top:0.5rem;
 
 }
 .card__hori2-content{
@@ -103,6 +104,16 @@
    margin:auto;
     /* margin-bottom:0.6rem; */
 }
+.hori2__btn .btn__pri{
+    margin-top:1rem;
+}
+.fa-heart{
+    position: absolute;
+  right:5px;
+    top:5px;
+    font-size:1.5rem;
+   color: red;
+} 
 
 
 
