@@ -80,9 +80,7 @@
   height:fit-content;
     margin:0 1rem;
     position: relative;
-  
-  
-    background-color: white;
+  background-color:var(--text2--color);
 }
 .card__hori2-maincontent{
     display: flex;
@@ -112,7 +110,7 @@
   right:5px;
     top:5px;
     font-size:1.5rem;
-   color: red;
+   color: var(--error--color);
 } 
 
 
