@@ -1,105 +1,39 @@
 
-#  🔗[MADE-UI](https://madeui.netlify.app/)
+#  🔗[GLAM](https://glamm.netlify.app/)
 
 
-A Component Library to get all the basic ready-made Components.
+Glam is an Ecommerce website based on Cosmetics and Skin-Care
+## Screens of Glam
 
-# Installation
+### [Home Page](https://glamm.netlify.app/index.html)
+* Contains all the Categories and Latest Products.
 
-To start using Made-UI copy the link with a component Path to include the particular component in your project.For Example to include Cards component use the link
-```
- @import url("https://madeui.netlify.app/components/Cards/Cards.css");
-<link rel="stylesheet" href="https://madeui.netlify.app/components/Cards/Cards.css">
-```
-For other components change the Components name in above Link.
 
-# How To use
-* To start using the components open the [documentation](https://madeui.netlify.app/components/avatars/avatar) of the MADEUI and copy the link provided on the top of each page and Copy that code snippet in your html file.
-* For the functionality copy and paste the javascript code given below of each compoenent in the documentation Page.
-* To provide your own style you can add your own class to the pre-existing classes and style them seperately.
+ ### [Product Page](https://glamm.netlify.app/products/products)
+* Contains all the products along with Search and Filters.
 
-# Components
- ### [Avatars](https://madeui.netlify.app/components/avatars/avatar)
-* Simple Avatars
-* Avatars with Status
-* Square shaped Avatars.
 
- ### [Alerts](https://madeui.netlify.app/components/alerts/alerts)
-* Simple Alerts
-* Outline Alerts
-* Alerts with close buttons.
+ ### [WishList Page](https://glamm.netlify.app/wishlist/wishlist)
+* Contains all the wishlist items.
 
- ### [Badges](https://madeui.netlify.app/components/badges/badges)
-* Status Badges
-* Icons Badges
-* Text Badges
 
- ### [Buttons](https://madeui.netlify.app/components/buttons/buttons)
-* Primary Buttons
-* Secondary Buttons
-* Floating Buttons
-* Links Buttons
-* Buttons with Icons
+ ### [Cart Page](https://glamm.netlify.app/cart/cart)
+* Contains all the items that are added for buying along with payment details.
 
- ### [Cards](https://madeui.netlify.app/components/cards/cards)
-* Vertical Cards
-* Shadow Cards
-* Horizontal Cards
-* Card with Badges
-* Card with text-overlay
-* Card with dismiss
-* Text only Card
+## Authentication
+ ### [Login Page](https://glamm.netlify.app/login/login)
+* Conatins a Login box for login into glam using user's regsitered email id and password.
 
- ### [Images](https://madeui.netlify.app/components/images/images)
-* Responsive Images
-* Round Images
-* Square shaped Images
 
- ### [Inputs](https://madeui.netlify.app/components/inputs/inputs)
-* Normal Field Inputs
-* Validation Input Field
-* Error Input Field
+ ### [Logout Page](https://glamm.netlify.app/logout/logout)
+* Conatins a confirmation message box to logout from Glam.
 
- ### [Lists](https://madeui.netlify.app/components/list/list)
-* Unordered list with bullets
-* Ordered List with bullets
-* Notification List
 
- ### [Navigation](https://madeui.netlify.app/components/navigation/navigation)
-* Simple Navigation Bar
-* Navigation Bar with Icons
-* Navigation Bar with Humburger
+ ### [Signup Page](https://glamm.netlify.app/signup/signup)
+* Contains a Signup box in which user need to Signup to Glam in order to Wishlist and buy Products.
 
- ### [Toast](https://madeui.netlify.app/components/toast/toast)
-* Simple Toast
-* Colorful Toast
 
- ### [Ratings](https://madeui.netlify.app/components/rating/rating)
-* Star Ratings
-* Badge Ratings
-
- ### [Text-Utilities](https://madeui.netlify.app/components/text-utlities/text-utilities)
-* Heading Text
-* Text-Alignments
-* Different sizes text
-* Text-transform
-* Font-weights
-
- ### [Grid-Simplified](https://madeui.netlify.app/components/gridsimplified/gridsimplified)
-* 50-50 Layout
-* 70-30 Layout
-* 30-70 Layout
-* Three column grid
-* Two column grid
-
- ### [Modal](https://madeui.netlify.app/components/modal/modal)
-* Simple Modal
-
- ### [Slider](https://madeui.netlify.app/components/slider/slider)
-* Simple Slider
-* Slider with Icon
-* Designed Slider
-
-![](assests/Homepage.png)
-![](assests/Introduction.png)
-![](assests/Components.png)
+![](/)
+![](images/products.png)
+![](images/wishlist.png)
+![](images/signup.png)
