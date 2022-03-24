@@ -1,255 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/Pages/Pages.css">
-    <link rel="stylesheet" href="/components/Cards/Cards.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/Pages/Pages.css" />
+    <link rel="stylesheet" href="/components/Cards/Cards.css" />
     <script src="https://kit.fontawesome.com/fda6e23714.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
+<>
     <div class="pages">
         <header class="header pages_header" id="header">
             <h2 class="heading header_heading">MadeUI</h2>
-            <label for="click" class="menu_btn"> <i class="fas fa-bars" id = "menu" onclick="changeIcon(this)"></i></label>
-            <input type="checkbox" id="click">
+            <label for="click" class="menu_btn">
+                <i class="fas fa-bars" id="menu" onclick="changeIcon(this)"></i></label>
+            <input type="checkbox" id="click" />
             <ul class="list">
-                <li class="list_style"><a class ="link_style" href ="/index.html"><span>Home</span></a></li>
-                <li  class="list_style"><a class ="link_style" href ="/components/Avatars/Avatar.html"><span>Documentation</span></a></li>
-                <li class="list_style"><a class="link_style" href="https://github.com/Shrinkhlarajpoot/MadeUI"><i class="fab fa-github"></i></a></li> 
-           </ul>
-       </header>
-        
+                <li class="list_style">
+                    <a class="link_style" href="/index.html"><span>Home</span></a>
+                </li>
+                <li class="list_style">
+                    <a class="link_style" href="/components/Avatars/Avatar.html"><span>Documentation</span></a>
+                </li>
+                <li class="list_style">
+                    <a class="link_style" href="https://github.com/Shrinkhlarajpoot/MadeUI"><i
+                            class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </header>
+
         <sidebar class="pages_sidebar">
             <ul class="sidebar__items">
-                 <h4 class="sidebar__heading">Getting Started</h4>
-                 <li class="sidebar__components list_style"><a href="/Documentation/Introduction/Introduction.html" 
-                     class="link_style">Introduction</a></li>
-                 <li class="sidebar__components list_style"><a href="/Documentation/Colors/Colors.html" 
-                     class="link_style">Colors</a></li>
-                 <li class="sidebar__components list_style"><a href="/Documentation/Typography/Typography.html" 
-                     class="link_style">Typography</a></li>
-                 <li class="sidebar__components list_style"><a href="/Documentation/Conclusion/Conclusion.html" 
-                    class="link_style">Conclusion</a></li>
-                 <h4 class="sidebar__heading">Components</h4>
-                 <li class="sidebar__components list_style"><a href="/components/Avatars/Avatar.html"
-                     class="link_style">Avatar</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Alerts/Alerts.html"
-                     class="link_style">Alert</a></li>
-                 <li class="sidebar__components list_style"><a href="/components/Badges/Badges.html"
-                     class="link_style">Badges</a></li>
-                 <li class="sidebar__components list_style"><a href="/components/Buttons/Buttons.html"
-                     class="link_style">Buttons</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Cards/Cards.html"
-                     class="link_style">Cards</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Images/Images.html"
-                     class="link_style">Images</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Inputs/Inputs.html"
-                     class="link_style">Inputs</a></li>
-                <li class="sidebar__components list_style"><a href="/components/List/List.html"
-                     class="link_style">List</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Navigation/Navigation.html"
-                     class="link_style">Navigation</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Toast/Toast.html"
-                     class="link_style">Toast</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Rating/Rating.html"
-                     class="link_style">Ratings</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Text-Utlities/Text-Utilities.html"
-                     class="link_style">Text-Utilities</a></li>
-                <li class="sidebar__components list_style"><a href="/components/GridSimplified/GridSimplified.html"
-                      class="link_style">Grid-Simplified</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Modal/Modal.html"
-                     class="link_style">Modal</a></li>
-                <li class="sidebar__components list_style"><a href="/components/Slider/Slider.html"
-                    class="link_style">Slider</a></li>
+                <h4 class="sidebar__heading">Getting Started</h4>
+                <li class="sidebar__components list_style">
+                    <a href="/Documentation/Introduction/Introduction.html" class="link_style">Introduction</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/Documentation/Colors/Colors.html" class="link_style">Colors</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/Documentation/Typography/Typography.html" class="link_style">Typography</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/Documentation/Conclusion/Conclusion.html" class="link_style">Conclusion</a>
+                </li>
+                <h4 class="sidebar__heading">Components</h4>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Avatars/Avatar.html" class="link_style">Avatar</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Alerts/Alerts.html" class="link_style">Alert</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Badges/Badges.html" class="link_style">Badges</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Buttons/Buttons.html" class="link_style">Buttons</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Cards/Cards.html" class="link_style">Cards</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Images/Images.html" class="link_style">Images</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Inputs/Inputs.html" class="link_style">Inputs</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/List/List.html" class="link_style">List</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Navigation/Navigation.html" class="link_style">Navigation</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Toast/Toast.html" class="link_style">Toast</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Rating/Rating.html" class="link_style">Ratings</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Text-Utlities/Text-Utilities.html" class="link_style">Text-Utilities</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/GridSimplified/GridSimplified.html" class="link_style">Grid-Simplified</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Modal/Modal.html" class="link_style">Modal</a>
+                </li>
+                <li class="sidebar__components list_style">
+                    <a href="/components/Slider/Slider.html" class="link_style">Slider</a>
+                </li>
             </ul>
         </sidebar>
-        <main class="pages_container">
-                <h1 class="component_heading">Cards</h1>
-                <div class="codebar">
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F73968bea06b05c2d6461e7c32533c2a789352c1e%2Findex.html%23L113-L115&style=night-owl"></script>
-                   </div>
-                   <div>Cards are used to show user related data collectively,like product details</div>
-                <h3 class="sub_heading">Example of Vertical Card and Shadow Card</h3>
-                <div>Below html code is for Vertical card to add shadow in the card add the class  card__shadow in the card container.</div>
-                <div class="container1">
-                    <div class="card__vertical">
-                        <div class="card__vertical-maincontent">
-                          <div class="card__vertical-img">
-                            <img src="/assests/lipstick.jfif" alt=""/>
+        <div class="pages_container">
+            <h1 class="component_heading">Cards</h1>
+            <div class="codebar">
+                <script
+                    src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F73968bea06b05c2d6461e7c32533c2a789352c1e%2Findex.html%23L113-L115&style=night-owl"></script>
+            </div>
+            <div>
+                Cards are used to show user related data collectively,like product
+                details
+            </div>
+            <h3 class="sub_heading">Example of Vertical Card and Shadow Card</h3>
+            <div>
+                Below html code is for Vertical card to add shadow in the card add the
+                class card__shadow in the card container.
+            </div>
+            <div class="container1">
+                <div class="card__vertical">
+                    <i class="fa fa-heart card__like"></i>
+                    <div class="card__vertical-maincontent">
+                        <div class="card__vertical-img">
+                            <img src="/assests/lipstick.jfif" alt="" />
+                        </div>
+                        <div class="card__vertical-content">
+                            <h3>S-Beauty Mascara</h3>
+                            <div>MRP: <i class="fas fa-rupee-sign"></i>250</div>
+                            <div>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="far fa-star"></i>(14088)
                             </div>
-                          <div class="card__vertical-content">
-                              <h3>S-Beauty Mascara</h3>
-                              <div>MRP: <i class="fas fa-rupee-sign"></i>250</div>
-                              <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>(14088)
-                          </div>
-                              <div class="btn__pri">Add To Cart</div>
-                              <div class="btn__sec">Add To WishList</div>
-                          </div>
+                            <button class="btn__pri">Add To Cart</button>
                         </div>
-                      </div>
-                    
-                   <div class="card__vertical card__shadow">
-                    
-                       <div class="card__vertical-maincontent">
-                          <div class="card__vertical-img">
-                            <img src="/assests/foundation.jpg" alt=""/>
+                    </div>
+                </div>
+
+                <div class="card__vertical card__shadow">
+                    <i class="fa fa-heart card__like"></i>
+                    <div class="card__vertical-maincontent">
+                        <div class="card__vertical-img">
+                            <img src="/assests/foundation.jpg" alt="" />
+                        </div>
+                        <div class="card__vertical-content">
+                            <h3>S-Beauty Mascara</h3>
+                            <div>MRP: <i class="fas fa-rupee-sign"></i>250</div>
+                            <div>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="far fa-star"></i>(14088)
                             </div>
-                          <div class="card__vertical-content">
-                              <h3>S-Beauty Mascara</h3>
-                              <div>MRP: <i class="fas fa-rupee-sign"></i>250</div>
-                              <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>(14088)
-                          </div>
-                              <div class="btn__pri">Add To Cart</div>
-                              <div class="btn__sec">Add To WishList</div>
-                          </div>
+                            <button class="btn__pri">Add To Cart</button>
                         </div>
-                      </div>
+                    </div>
                 </div>
-               <div class="codebar">
-                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Ff9292a95e82a8882180e817d345078a9a2d48e8b%2Findex.html%23L553-567&style=night-owl"></script>
-               </div>
-                <h3 class="sub_heading">Example of Horizontal Cards</h3>
-                <div>These are the examples of horizaontal card which is mainly used for notifications.</div>
-                <div class="container">
-                    <div class="card__hori">
-                        <img src="/assests/lipstick.jfif" alt="" class="card__hori-img"/>
-                          <div class="card__hori-content">
-                               <h4>S-Beauty Mascara</h4>
-                               <div>MRP: <i class="fas fa-rupee-sign"></i>250 <span class="cart__price-new">300</span> <span class="cart__latest">10% off</span></div>
-                               <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>(14088)
-                         </div>
-                         <div class="hori__btn">
-                            <div class="btn__pri">Add from Cart</div>
-                          <div class="btn__sec">Add To WishList</div>
-                       </div>
-                        
-                          </div>
-                        </div>
-                      
-                            <div class="card__hori2">
-                                <i class="fa fa-heart"></i>
-                                <div class="card__hori2-maincontent">
-                                    <img src="/assests/heels.jpg" alt="" class="card__hori2-img"/>
-                                    <div class="card__hori2-content">
-                                         <h4>S-Beauty Mascara</h4>
-                                         <div>MRP: <i class="fas fa-rupee-sign"></i>250 <span class="cart__price-new">300</span> <span class="cart__latest">10% off</span></div>
-                                         <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>(14088)
-                                   </div>
-                                   </div>
-                                </div>
-                              
-                                  <div class="hori2__btn">
-                                    <div class="btn__pri">Add from Cart</div>
-                                
-                            
-                                   </div>
-                                 </div>
-                </div>
-                <div class="codebar">
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Ff9292a95e82a8882180e817d345078a9a2d48e8b%2Findex.html%23L585-595&style=night-owl"></script>
-                </div>
-                <div class="codebar">
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F34e8546341be020426b1b4dacb37f17540178d58%2Findex.html%23L661-L675&style=night-owl"></script>
-                </div>
-                <h3 class="sub_heading">Example of Cards with Badges </h3>
-                <div>These kind of cards are used to show some special notification like offers,discounts etc</div>
-                <div class="container1">
-                    <div class="card__vertical">
-                        <h4 class="card__vertical-title">NEW</h4>
-                       <div class="card__vertical-maincontent">
-                          <div class="card__vertical-img">
-                            <img src="/assests/eyeshadow.jpg" alt=""/>
+            </div>
+            <div class="codebar">
+                <script
+                    src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Fec7d1e2cb683733484131fead08f535522371c69%2Findex.html%23L116-L133&style=night-owl"></script>
+            </div>
+            <h3 class="sub_heading">Example of Horizontal Cards</h3>
+            <div>
+                These are the examples of horizaontal card which is mainly used for
+                notifications.
+            </div>
+            <div class="container">
+                <div class="card__hori2">
+                    <i class="fas fa-heart card__like"></i>
+                    <div class="card__hori2-maincontent">
+                        <img src="/assests/heels.jpg" alt="" class="card__hori2-img" />
+                        <div class="card__hori2-content">
+                            <h4>S-Beauty Mascara</h4>
+                            <div>
+                                MRP: <i class="fas fa-rupee-sign"></i>250
+                                <span class="cart__price-new">300</span>
+                                <span class="cart__latest">10% off</span>
                             </div>
-                          <div class="card__vertical-content">
-                              <h3>S-Beauty Mascara</h3>
-                              <div>MRP: <i class="fas fa-rupee-sign"></i>250 <span class="cart__price-new">300</span> </div>
-                              <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>(14088)
-                          </div>
-                              <div class="btn__pri">Add To Cart</div>
-                              <div class="btn__sec">Add To WishList</div>
-                          </div>
+                            <div>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="far fa-star"></i>(14088)
+                            </div>
                         </div>
-                      </div>
+                    </div>
+                    <div class="hori2__btn">
+                        <button class="btn__pri">Add from Cart</button>
+                    </div>
                 </div>
-                <div class="codebar">
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Ff9292a95e82a8882180e817d345078a9a2d48e8b%2Findex.html%23L597-L612&style=night-owl"></script>
+            </div>
+           <div class="codebar">
+                <script
+                    src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Fec7d1e2cb683733484131fead08f535522371c69%2Findex.html%23L154-L176&style=night-owl"></script>
+            </div>
+            <h3 class="sub_heading">Example of Cards with Badges</h3>
+
+            These kind of cards are used to show some special notification like
+            offers,discounts etc
+
+            <div class="container1">
+                <div class="card__vertical">
+                    <h4 class="card__vertical-title">NEW</h4>
+                    <i class="fa fa-heart card__like"></i>
+                    <div class="card__vertical-maincontent">
+                        <div class="card__vertical-img">
+                            <img src="/assests/eyeshadow.jpg" alt="" />
+                        </div>
+                        <div class="card__vertical-content">
+                            <h3>S-Beauty Mascara</h3>
+                            <div>
+                                MRP: <i class="fas fa-rupee-sign"></i>250
+                                <span class="cart__price-new">300</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="far fa-star"></i>(14088)
+                            </div>
+                            <button class="btn__pri">Add To Cart</button>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="sub_heading">Example of Cards with text-overlay</h3>
-                <div>These kind of cards are used to show some alerts like out of stocks etc</div>
-                <div class="container1">
-                    <div class="card__overlay-blur">
-                    <div class="card__vertical card__overlay">
-                      
-                        <div class="card__vertical-maincontent">
-                               <div class="card__vertical-img">
-                                 <img src="/assests/eyeshadow.jpg" alt=""/>
-                                 </div>
-                               <div class="card__vertical-content">
-                                   <h3>S-Beauty Mascara</h3>
-                                   <div>MRP: <i class="fas fa-rupee-sign"></i>250 <span class="cart__price-new">300</span> </div>
-                                   <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>(14088)
-                               </div>
-                                   <div class="btn__pri">Add To Cart</div>
-                                   <div class="btn__sec">Add To WishList</div>
-                               </div>
-                             </div>
-                           </div>
-                           <h4 class="card__vertical-overlay">OUT OF STOCK</h4>
-                           </div>
-             </div>
+            </div>
              <div class="codebar">
-                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Ff9292a95e82a8882180e817d345078a9a2d48e8b%2Findex.html%23L614-631&style=night-owl"></script>
-             </div>
-                <h3 class="sub_heading">Example of Cards with Dismiss</h3>
-                <div>This is a card with dismiss to dismiss the card.</div>
-                <div class="container1">
-                    <div class="card__vertical">
-                        <h4 class="card__vertical-dismiss">X</h4>
-                       <div class="card__vertical-maincontent">
-                          <div class="card__vertical-img">
-                            <img src="/assests/eyeshadow.jpg" alt=""/>
+                 <script
+                    src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Fec7d1e2cb683733484131fead08f535522371c69%2Findex.html%23L178-L199&style=night-owl"></script>
+            </div>
+
+            <h3 class="sub_heading">Example of Cards with text-overlay</h3>
+
+            These kind of cards are used to show some alerts like out of stocks
+            etc
+
+            <div class="container1">
+                <div class="card__overlay-blur">
+                    <div class="card__vertical card__overlay">
+                        <i class="fa fa-heart card__like"></i>
+                        <div class="card__vertical-maincontent">
+                            <div class="card__vertical-img">
+                                <img src="/assests/eyeshadow.jpg" alt="" />
                             </div>
-                          <div class="card__vertical-content">
-                              <h3>S-Beauty Mascara</h3>
-                              <div>MRP: <i class="fas fa-rupee-sign"></i>250 <span class="cart__price-new">300</span> <span class="cart__latest">10% off</span></div>
-                              <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>(14088)
-                          </div>
-                              <div class="btn__pri">Add To Cart</div>
-                              <div class="btn__sec">Add To WishList</div>
-                          </div>
+                            <div class="card__vertical-content">
+                                <h3>S-Beauty Mascara</h3>
+                                <div>
+                                    MRP: <i class="fas fa-rupee-sign"></i>250
+                                    <span class="cart__price-new">300</span>
+                                </div>
+                                <div>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="far fa-star"></i>(14088)
+                                </div>
+                                <button disable="true" class="btn__pri">Add To Cart</button>
+                            </div>
                         </div>
-                      </div>
+                    </div>
+                    <h4 class="card__vertical-overlay">OUT OF STOCK</h4>
                 </div>
-                <div class="codebar">
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Ff9292a95e82a8882180e817d345078a9a2d48e8b%2Findex.html%23L633-L648&style=night-owl"></script>
+            </div>
+            <div class="codebar">
+                <script
+                    src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Fec7d1e2cb683733484131fead08f535522371c69%2Findex.html%23L201-L224&style=night-owl"></script>
+            </div>
+
+            <h3 class="sub_heading">Example of Cards with Dismiss</h3>
+            <div>This is a card with dismiss to dismiss the card.</div>
+            <div class="container1">
+                <div class="card__vertical">
+                    <h4 class="card__vertical-dismiss">X</h4>
+                    <div class="card__vertical-maincontent">
+                        <div class="card__vertical-img">
+                            <img src="/assests/eyeshadow.jpg" alt="" />
+                        </div>
+                        <div class="card__vertical-content">
+                            <h3>S-Beauty Mascara</h3>
+                            <div>
+                                MRP: <i class="fas fa-rupee-sign"></i>250
+                                <span class="cart__price-new">300</span>
+                                <span class="cart__latest">10% off</span>
+                            </div>
+                            <div>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="far fa-star"></i>(14088)
+                            </div>
+                            <button class="btn__pri">Add To Cart</button>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="sub_heading">Example of Text only Card</h3>
-                <div>This is a classic card with only text content</div>
-                <div class="container1">
-                    <div class="card__vertical card__text-only">
-                        <div class="card__vertical--content">
-                         <h3 class="card__text-sub">To all the beauty queens <br>Grasp the offer!!</h3>
-                          <h3  class="card__text-sub"> foundation,Lipsticks and all your<br>beauty products is 60% OFF.</h3><br>
-                         <h2 class="card__text-main">powered by S <br >In collab with Sugar Cosmetics</h2>
-                             
-                         </div>
-                         <h3  class="card__text-sub">STOCKS LIMITED EDITION</h3>
-                 </div></div>
-               
-                <div class="codebar">
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Ff9292a95e82a8882180e817d345078a9a2d48e8b%2Findex.html%23L650-L657&style=night-owl"></script>
+            </div>
+            <div class="codebar">
+                <script
+                    src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Fec7d1e2cb683733484131fead08f535522371c69%2Findex.html%23L226-L247&style=night-owl"></script>
+            </div>
+
+            <h3 class="sub_heading">Example of Text only Card</h3>
+            <div>This is a classic card with only text content</div>
+            <div class="container1">
+                <div class="card__vertical card__text-only">
+                    <div class="card__vertical--content">
+                        <h3 class="card__text-sub">
+                            To all the beauty queens <br />Grasp the offer!!
+                        </h3>
+                        <h3 class="card__text-sub">
+                            foundation,Lipsticks and all your<br />beauty products is 60%
+                            OFF.
+                        </h3>
+                        <br />
+                        <h2 class="card__text-main">
+                            powered by S <br />In collab with Sugar Cosmetics
+                        </h2>
+                    </div>
+                    <h3 class="card__text-sub">STOCKS LIMITED EDITION</h3>
                 </div>
-               <div class="next_forward">
-            <h3 class="sub_heading"><a class="link_style" href="/components/Buttons/Buttons.html">Buttons</a></h3>
-            <h3 class="sub_heading"><a class="link_style" href="/components/Images/Images.html">Images</a></h3>
+            </div>
+            <div class="codebar">
+                <script
+                    src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2Fec7d1e2cb683733484131fead08f535522371c69%2Findex.html%23L249-L264&style=night-owl"></script>
+            </div>
+
+
+            <div class="codebar"></div>
+            <div class="next_forward">
+                <h3 class="sub_heading">
+                    <a class="link_style" href="/components/Buttons/Buttons.html">Buttons</a>
+                </h3>
+                <h3 class="sub_heading">
+                    <a class="link_style" href="/components/Images/Images.html">Images</a>
+                </h3>
+            </div>
+            </main>
         </div>
-    </main>
-</div>
-            
-             <script src="/Javascript.js/header.js"></script>
-</body>
+
+        <script src="/Javascript.js/header.js"></script>
+        </body>
+
 </html>
