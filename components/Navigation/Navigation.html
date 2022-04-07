@@ -1,132 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/Pages/Pages.css">
-    <link rel="stylesheet" href="/components/Navigation/Navigation.css">
-    <script src="https://kit.fontawesome.com/fda6e23714.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/Pages/Pages.css" />
+    <link rel="stylesheet" href="/components/Navigation/Navigation.css" />
+    <script
+      src="https://kit.fontawesome.com/fda6e23714.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Round"
+      rel="stylesheet"
+    />
     <title>MADEUI</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="pages">
-        <header class="header pages_header" id="header">
-            <h2 class="heading header_heading">MadeUI</h2>
-            <label for="click" class="menu_btn"> <i class="fas fa-bars" id = "menu" onclick="changeIcon(this)"></i></label>
-            <input type="checkbox" id="click">
-            <ul class="list">
-                <li class="list_style"><a class ="link_style" href ="/index.html"><span>Home</span></a></li>
-                <li  class="list_style"><a class ="link_style" href ="/components/Avatars/Avatar.html"><span>Documentation</span></a></li>
-                <li class="list_style"><a class="link_style" href="https://github.com/Shrinkhlarajpoot/MadeUI"><i class="fab fa-github"></i></a></li> 
-            </ul>
-          </header>
+      <header class="header pages_header" id="header">
+        <h2 class="heading header_heading">MadeUI</h2>
+        <label for="click" class="menu_btn">
+          <i class="fas fa-bars" id="menu" onclick="changeIcon(this)"></i
+        ></label>
+        <input type="checkbox" id="click" />
+        <ul class="list">
+          <li class="list_style">
+            <a class="link_style" href="/index.html"><span>Home</span></a>
+          </li>
+          <li class="list_style">
+            <a class="link_style" href="/components/Avatars/Avatar.html"
+              ><span>Documentation</span></a
+            >
+          </li>
+          <li class="list_style">
+            <a
+              class="link_style"
+              href="https://github.com/Shrinkhlarajpoot/MadeUI"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </header>
 
-         <sidebar class="pages_sidebar">
-          <ul class="sidebar__items">
-               <h4 class="sidebar__heading">Getting Started</h4>
-               <li class="sidebar__components list_style"><a href="/Documentation/Introduction/Introduction.html" 
-                   class="link_style">Introduction</a></li>
-               <li class="sidebar__components list_style"><a href="/Documentation/Colors/Colors.html" 
-                   class="link_style">Colors</a></li>
-               <li class="sidebar__components list_style"><a href="/Documentation/Typography/Typography.html" 
-                   class="link_style">Typography</a></li>
-               <li class="sidebar__components list_style"><a href="/Documentation/Conclusion/Conclusion.html" 
-                  class="link_style">Conclusion</a></li>
-               <h4 class="sidebar__heading">Components</h4>
-               <li class="sidebar__components list_style"><a href="/components/Avatars/Avatar.html"
-                   class="link_style">Avatar</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Alerts/Alerts.html"
-                   class="link_style">Alert</a></li>
-               <li class="sidebar__components list_style"><a href="/components/Badges/Badges.html"
-                   class="link_style">Badges</a></li>
-               <li class="sidebar__components list_style"><a href="/components/Buttons/Buttons.html"
-                   class="link_style">Buttons</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Cards/Cards.html"
-                   class="link_style">Cards</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Images/Images.html"
-                   class="link_style">Images</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Inputs/Inputs.html"
-                   class="link_style">Inputs</a></li>
-              <li class="sidebar__components list_style"><a href="/components/List/List.html"
-                   class="link_style">List</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Navigation/Navigation.html"
-                   class="link_style">Navigation</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Toast/Toast.html"
-                   class="link_style">Toast</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Rating/Rating.html"
-                   class="link_style">Ratings</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Text-Utlities/Text-Utilities.html"
-                   class="link_style">Text-Utilities</a></li>
-              <li class="sidebar__components list_style"><a href="/components/GridSimplified/GridSimplified.html"
-                    class="link_style">Grid-Simplified</a></li>
-                    <li class="sidebar__components list_style"><a href="/components/Modal/Modal.html"
-                    class="link_style">Modal</a></li>
-              <li class="sidebar__components list_style"><a href="/components/Slider/Slider.html"
-                    class="link_style">Slider</a></li>
+      <sidebar class="pages_sidebar">
+        <ul class="sidebar__items">
+          <h4 class="sidebar__heading">Getting Started</h4>
+          <li class="sidebar__components list_style">
+            <a
+              href="/Documentation/Introduction/Introduction.html"
+              class="link_style"
+              >Introduction</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/Documentation/Colors/Colors.html" class="link_style"
+              >Colors</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a
+              href="/Documentation/Typography/Typography.html"
+              class="link_style"
+              >Typography</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a
+              href="/Documentation/Conclusion/Conclusion.html"
+              class="link_style"
+              >Conclusion</a
+            >
+          </li>
+          <h4 class="sidebar__heading">Components</h4>
+          <li class="sidebar__components list_style">
+            <a href="/components/Avatars/Avatar.html" class="link_style"
+              >Avatar</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Alerts/Alerts.html" class="link_style"
+              >Alert</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Badges/Badges.html" class="link_style"
+              >Badges</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Buttons/Buttons.html" class="link_style"
+              >Buttons</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Cards/Cards.html" class="link_style">Cards</a>
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Images/Images.html" class="link_style"
+              >Images</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Inputs/Inputs.html" class="link_style"
+              >Inputs</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/List/List.html" class="link_style">List</a>
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Navigation/Navigation.html" class="link_style"
+              >Navigation</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Toast/Toast.html" class="link_style">Toast</a>
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Rating/Rating.html" class="link_style"
+              >Ratings</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a
+              href="/components/Text-Utlities/Text-Utilities.html"
+              class="link_style"
+              >Text-Utilities</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a
+              href="/components/GridSimplified/GridSimplified.html"
+              class="link_style"
+              >Grid-Simplified</a
+            >
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Modal/Modal.html" class="link_style">Modal</a>
+          </li>
+          <li class="sidebar__components list_style">
+            <a href="/components/Slider/Slider.html" class="link_style"
+              >Slider</a
+            >
+          </li>
+        </ul>
+      </sidebar>
+      <main class="pages_container">
+        <h1 class="component_heading">Navigation</h1>
+        <div class="codebar">
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L307-L309&style=night-owl"></script>
+        </div>
+        <div>
+          Navigation bar is used to navigate through the web apps or websites.
+        </div>
+        <h3 class="sub_heading">Example of Simple Navigation Bar</h3>
+        <div>
+          This is a simple Navigation bar just add navigation class along with
+          <span style="color: var(--primary-color)"
+            >navigation_items and nav_item1and nav_item2</span
+          >
+          to use it.
+        </div>
+        <div class="container">
+          <nav class="navigation">
+            <h3>Madeui</h3>
+            <ul class="navigation_items">
+              <li class="nav_item">Item1</li>
+              <li class="nav_item">Item2</li>
             </ul>
-            </sidebar>
-            <main class="pages_container">
-                <h1 class="component_heading">Navigation</h1>
-                <div class="codebar">
-                  <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L307-L309&style=night-owl"></script>
-                </div>
-               <div>Navigation bar is used to navigate through the web apps or websites.</div>
-               <h3 class="sub_heading">Example of Simple Navigation Bar</h3>
-               <div>This is a simple Navigation bar just add navigation class along with <span  style= "color:var(--primary-color)">navigation_items and nav_item1and nav_item2</span>
-                   to use it.
-               </div>
-               <div class="container">
-                <nav class="navigation">
-                    <h3>Madeui</h3>
-                    <ul class="navigation_items">
-                      <li class="nav_item">Item1</li>
-                      <li class="nav_item">Item2</li>
-                    </ul>
-                  </nav>
-                </div>
-                  <div class="codebar">
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L311-L317&style=night-owl"></script>
-                  </div>
-               <h3 class="sub_heading">Example of Simple Navigation Bar With Icons</h3>
-               <div>This is the Navigation with a icons.Add class navigation along with <span style= "color:var(--primary-color)">navigation_items and nav_item-icon</span>  to add
-                   these in your project </div>
-               <div class="container">
-                <nav class="navigation">
-                    <h3>Madeui</h3>
-                    <ul class="navigation_items">
-                      <li class="nav_item-icon"><i class="fas fa-shopping-cart"></i></li>
-                      <li class="nav_item-icon"><i class="fas fa-user-circle"></i></li>
-                      <li class="nav_item-icon"><i class="fas fa-share-alt"></i></li>
-                    </ul>
-                  </nav>
-               </div>
-              <div class="codebar">
-                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L319-L326&style=night-owl"></script>
-              </div>
+          </nav>
+        </div>
+        <div class="codebar">
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L311-L317&style=night-owl"></script>
+        </div>
+        <h3 class="sub_heading">Example of Simple Navigation Bar With Icons</h3>
+        <div>
+          This is the Navigation with a icons.Add class navigation along with
+          <span style="color: var(--primary-color)"
+            >navigation_items and nav_item-icon</span
+          >
+          to add these in your project
+        </div>
+        <div class="container">
+          <nav class="navigation">
+            <h3>Madeui</h3>
+            <ul class="navigation_items">
+              <li class="nav_item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </li>
+              <li class="nav_item-icon"><i class="fas fa-user-circle"></i></li>
+              <li class="nav_item-icon"><i class="fas fa-share-alt"></i></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="codebar">
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L319-L326&style=night-owl"></script>
+        </div>
 
-               <h3 class="sub_heading">Example of Simple Navigation Bar With Menu Icon</h3>
-               <div>This is the Navigation with a icons.Add class navigation along with <span style="color:var(--primary-color)">navigation_items and nav_item-icon</span>  to add
-                these in your project </div>
-               <div class="container">
-                <nav class="navigation">
-                    <h3>Madeui</h3>
-                    <ul class="navigation_items">
-                      <li class="nav_item-icon"><i class="fas fa-bars"></i></li>
-                    </ul>
-                  </nav>
-               </div>
-              <div class="codebar">
-                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L328-L333&style=night-owl"></script>
-              </div>
-               <div class="next_forward">
-                <h3 class="sub_heading"><a class="link_style" href="/components/List/List.html">List</a></h3>
-                <h3 class="sub_heading"><a class="link_style" href="/components/Toast/Toast.html">Toast</a></h3>
+        <h3 class="sub_heading">
+          Example of Simple Navigation Bar With Menu Icon
+        </h3>
+        <div>
+          This is the Navigation with a icons.Add class navigation along with
+          <span style="color: var(--primary-color)"
+            >navigation_items and nav_item-icon</span
+          >
+          to add these in your project
+        </div>
+        <div class="container">
+          <nav class="navigation">
+            <h3>Madeui</h3>
+            <ul class="navigation_items">
+              <li class="nav_item-icon"><i class="fas fa-bars"></i></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="codebar">
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F8b1e7ac6e608b7eac5ee47b7ea04d08f7672e61c%2Findex.html%23L328-L333&style=night-owl"></script>
+        </div>
+        <h3 class="sub_heading">
+          Example of Simple Navigation Bar With Menu Icon Type2
+        </h3>
+        <div class="container">
+          <div class="header2">
+            <div class="hearer__first-items">
+              <span class="material-icons-outlined">menu</span>
+              <h2>MYBRAND</h2>
             </div>
-        </main>
-</div>
+
+            <div className="hearer__last-items">
+              <button class="btn btn_solid-primary btn_primary header__btn">
+                LogOut
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="codebar">
+          <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShrinkhlarajpoot%2FcodeSnipett%2Fblob%2F00410b7eb4502b69213399a4dfc28add22f488b7%2Findex.html%23L723-L734&style=night-owl"></script>
+        </div>
+        <div class="next_forward">
+          <h3 class="sub_heading">
+            <a class="link_style" href="/components/List/List.html">List</a>
+          </h3>
+          <h3 class="sub_heading">
+            <a class="link_style" href="/components/Toast/Toast.html">Toast</a>
+          </h3>
+        </div>
+      </main>
+    </div>
 
     <script src="/JavaScript/header.js"></script>
-</body>
-</html> 
+  </body>
+</html>
